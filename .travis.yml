@@ -1,0 +1,23 @@
+# travis-ci.org
+
+language: ruby
+rvm:
+- 2.3.3
+
+install: gem install jekyll html-proofer
+script: jekyll build && htmlproofer ./_site
+
+branches:
+  only:
+    - master
+
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+sudo: false
+
+notifications:
+  email:
+    on_success: never
+    on_failure: change
