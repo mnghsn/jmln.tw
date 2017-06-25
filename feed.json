@@ -1,0 +1,72 @@
+---
+regenerate: true
+---
+
+{
+  "version": "https://jsonfeed.org/version/1",
+
+{% if site.title %}
+  "title": {{ site.title | jsonify }},
+{% endif %}
+
+{% if site.description %}
+  "description": {{ site.description | markdownify | strip_html | normalize_whitespace | jsonify }},
+{% endif %}
+
+  "home_page_url": {{ "/" | absolute_url | jsonify }},
+  "feed_url": {{ page.url | absolute_url | jsonify }},
+  "favicon": {{ "/assets/images/favicon-180.png" | absolute_url | jsonify }},
+  "expired": false,
+
+{% if site.author %}
+  "author": {
+  {% if site.author.uri %}
+    "uri": {{ site.author.uri | jsonify }},
+  {% endif %}
+    "name": {{ site.author.name | default: site.author | jsonify }}
+  },
+{% endif %}
+
+  "items": [
+  {% assign posts = site.posts | where_exp: "post", "post.draft != true" %}
+  {% for post in posts limit: 10 %}
+    {
+      "id": {{ post.id | absolute_url | jsonify }},
+      "url": {{ post.url | absolute_url | jsonify }},
+      "title": {{ post.title | jsonify }},
+      "content_html": {{ post.content | strip | jsonify }},
+    {% if post.excerpt and post.excerpt != empty %}
+      "summary": {{ post.excerpt | strip_html | normalize_whitespace | jsonify }},
+    {% endif %}
+
+    {% assign post_image = post.image.path | default: post.image %}
+    {% if post_image %}
+      {% unless post_image contains "://" %}
+        {% assign post_image = post_image | absolute_url %}
+      {% endunless %}
+      "image": {{ post_image | jsonify }},
+    {% endif %}
+
+      "date_published": {{ post.date | date_to_xmlschema | jsonify }},
+      "date_modified": {{ post.last_modified_at | default: post.date | date_to_xmlschema | jsonify }},
+
+    {% assign post_author = post.author | default: post.authors[0] | default: site.author %}
+    {% assign post_author = site.data.authors[post_author] | default: post_author %}
+    {% assign post_author_uri = post_author.uri | default: nil %}
+    {% assign post_author_name = post_author.name | default: post_author %}
+
+    {% if post_author_name %}
+      "author": {
+      {% if post_author_uri %}
+        "url": {{ post_author_uri | jsonify }},
+      {% endif %}
+        "name": {{ post_author_name | jsonify }}
+      },
+    {% endif %}
+
+      "tags": {{ post.tags | jsonify }}
+
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+  ]
+}
