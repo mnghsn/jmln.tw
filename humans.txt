@@ -1,0 +1,16 @@
+---
+---
+
+/* TEAM */
+
+Author: {{ site.author.name }}{% if site.author.email %}
+Contact: {{ site.author.email | replace: "@", " [at] " }}{% endif %}{% if site.author.twitter %}
+Twitter: @{{ site.author.twitter }}{% endif %}
+
+/* SITE */
+
+Last update: {{ site.time | date: "%Y/%m/%d" }}
+Language: Traditional Chinese (Taiwan)
+Generator: Jekyll
+Standards: HTML5, CSS3
+Software: Atom, Visual Studio Code, GIMP, Inkscape
