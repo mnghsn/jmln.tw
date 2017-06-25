@@ -1,0 +1,86 @@
+# Jekyll Configuration
+# https://jekyllrb.com/docs/configuration/
+
+# Site
+title: Jimmy Lin’s Blog
+description: >
+  這裡是吉米林（Jimmy Lin）的個人部落格。
+  記錄我在程式設計和網頁製作技術的作品與心得、日本 ACG 宅物以及個人想法閒談。
+repository: jmlntw/jmln.tw
+
+# Author
+author:
+  name: Jimmy Lin
+  email: jmlntw@gmail.com
+  uri: https://jmln.tw/
+  twitter: jmlntw
+  plurk: jmlntw
+  google_plus: "106719721580422518699"
+  github: jmlntw
+
+# URL
+url: https://jmln.tw
+baseurl: ""
+permalink: none
+
+# Localization
+lang: zh-hant-tw
+timezone: Asia/Taipei
+date_format: "%Y-%m-%d"
+
+# Feed
+feed:
+  path: /feed.xml
+  json_path: /feed.json
+
+# Analytics
+google_analytics: UA-81739523-1
+
+# Writings
+markdown: kramdown
+highlighter: rouge
+excerpt_separator: <!--more-->
+kramdown:
+  input: GFM
+  auto_ids: false
+
+# Comments
+disqus:
+  shortname: jmlntw
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:title:output_ext
+  pages:
+    output: true
+    permalink: /:categories/:title:output_ext
+
+# Defaults
+defaults:
+  - scope:
+      path: _posts
+      type: posts
+    values:
+      layout: post
+      comments: true
+  - scope:
+      path: _pages
+      type: pages
+    values:
+      layout: page
+      comments: false
+
+# Files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - CNAME
+  - README.md
+  - LICENSE.txt
+  - LICENSE-CC.txt
+
+# Plugins
+plugins: []
+whitelist: []
