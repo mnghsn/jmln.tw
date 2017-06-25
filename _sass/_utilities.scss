@@ -28,6 +28,18 @@
   @include clearfix;
 }
 
+.rounded {
+  border-radius: $border-radius;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+}
+
+.rounded-0 {
+  border-radius: 0;
+}
+
 .text-muted {
   color: $color-text-muted;
 }
