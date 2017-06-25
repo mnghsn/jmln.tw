@@ -5,6 +5,10 @@ last_modified_at: 2017-06-25 00:00:00 +0800
 order: 0
 ---
 
+<figure class="float-right">
+  <img class="rounded-circle" src="{% link /assets/images/avatar.min.png %}" srcset="{% link /assets/images/avatar@2x.min.png %} 2x" alt="Jimmy Lin">
+</figure>
+
 我是**吉米林（Jimmy Lin）**，網路常用帳號名稱為「**jmlntw**」。台灣人。
 
 熱愛各種文字和語言，包含給人類閱讀的和給電腦閱讀的。
@@ -28,6 +32,10 @@ order: 0
 這裡是我的個人部落格，主要內容和目標是記錄我在程式設計和網頁製作技術的作品與心得，加上一些日本 ACG 宅物以及我個人的想法與閒談。
 
 整個網站使用 [Jekyll](https://jekyllrb.com/) 建置，完整程式碼在 <https://github.com/jmlntw/jmln.tw>。
+
+---
+
+<img src="{% link /assets/images/cc-by-sa.min.png %}" alt="CC BY-SA 4.0" width="88" height="31">
 
 除非另有註明，本站所有內容皆採用[創用 CC 姓名標示-相同方式分享 4.0 國際 授權條款](https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW)授權。
 
