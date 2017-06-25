@@ -1,0 +1,23 @@
+---
+layout: none
+---
+
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' | escape }}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <main class="site-content">
+      <div class="site-inner">
+        {{ content }}
+      </div>
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+</html>

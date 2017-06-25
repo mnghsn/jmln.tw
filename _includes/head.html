@@ -1,0 +1,28 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  {% include seo.html %}
+
+  <link rel="apple-touch-icon" href="{{ '/assets/images/favicon-152.png' | relative_url }}">
+
+  {% if site.feed and site.feed.path %}
+    <link rel="alternate" href="{{ site.feed.path | absolute_url }}" type="application/atom+xml" title="{{ site.title | escape }}">
+  {% endif %}
+
+  {% if site.feed and site.feed.json_path %}
+    <link rel="alternate" href="{{ site.feed.json_path | absolute_url }}" type="application/json" title="{{ site.title | escape }}">
+  {% endif %}
+
+  <link rel="author" href="{{ '/humans.txt' | absolute_url }}" type="text/plain">
+
+  <link rel="stylesheet" href="{{ 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Source+Code+Pro:400,700' | uri_escape }}">
+  <link rel="stylesheet" href="{{ '/assets/styles/vendor/normalize.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/styles/vendor/github.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/styles/main.css' | relative_url }}">
+
+  {% if site.google_analytics and jekyll.environment == "production" %}
+    {% include google-analytics.html %}
+  {% endif %}
+</head>
