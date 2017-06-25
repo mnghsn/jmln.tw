@@ -1,0 +1,73 @@
+// Site Layout Styles
+
+.site-inner {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacer-md;
+  padding-left: $spacer-md;
+  width: $site-inner-max-width;
+  max-width: 100%;
+}
+
+.site-header {
+  margin-bottom: $spacer-xl;
+  padding: $spacer-sm 0;
+  background-color: $color-black;
+  text-align: center;
+
+  @include media-breakpoint-up($site-header-breakpoint) {
+    text-align: left;
+  }
+}
+
+.site-header-inner {
+  @include clearfix;
+}
+
+.site-title {
+  display: inline-block;
+  padding: $spacer-sm 0;
+  color: $color-white;
+  font-size: $font-size-base;
+  font-weight: $font-weight-bold;
+  text-decoration: none;
+
+  &:hover, &:focus {
+    color: $color-white;
+    text-decoration: none;
+  }
+}
+
+.site-menu {
+  overflow-x: auto;
+  white-space: nowrap;
+
+  @include media-breakpoint-up($site-header-breakpoint) {
+    float: right;
+  }
+}
+
+.site-menu-item {
+  display: inline-block;
+  padding: $spacer-sm 0;
+  color: $color-gray-light;
+  text-decoration: none;
+
+  &:hover, &:focus {
+    color: $color-white;
+    text-decoration: none;
+  }
+
+  &:not(:last-child) {
+    margin-right: $spacer-md;
+  }
+}
+
+.site-footer {
+  margin-top: $spacer-xl;
+  padding: $spacer-sm 0;
+  border-top: $border;
+  color: $color-text-muted;
+  font-size: $font-size-sm;
+  text-align: center;
+}

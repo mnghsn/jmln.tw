@@ -1,0 +1,75 @@
+// SCSS Variables
+
+// Sizing and Spacers
+
+$root-size: 16px !default;
+
+$spacer:    $root-size !default;
+$spacer-xs: ($spacer * 0.25) !default;
+$spacer-sm: ($spacer * 0.5) !default;
+$spacer-md: $spacer !default;
+$spacer-lg: ($spacer * 1.5) !default;
+$spacer-xl: ($spacer * 2) !default;
+
+// Breakpoints
+
+$breakpoints: (
+  xs: 0,
+  md: 576px,
+  sm: 768px,
+  lg: 992px,
+  xl: 1200px
+) !default;
+
+// Colors
+
+$color-black:        #333333 !default;
+$color-white:        #ffffff !default;
+$color-gray:         #999999 !default;
+$color-gray-light:   #e9e9e9 !default;
+$color-gray-lighter: #f3f3f3 !default;
+$color-blue:         #0066e9 !default;
+
+$color-background:       $color-white !default;
+$color-background-faded: $color-gray-lighter !default;
+$color-text:             $color-black !default;
+$color-text-muted:       $color-gray !default;
+$color-border:           $color-gray-light !default;
+$color-link:             $color-blue !default;
+
+// Fonts
+
+$font-family-sans-serif: "Source Sans Pro", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-monospace:  "Source Code Pro", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:       $font-family-sans-serif !default;
+
+$font-size-base: $root-size !default;
+$font-size-lg:   ($font-size-base * 1.25) !default;
+$font-size-sm:   ($font-size-base * 0.8) !default;
+
+$font-weight-normal: 400 !default;
+$font-weight-bold:   700 !default;
+$font-weight-base:   $font-weight-normal !default;
+
+// Typography
+
+$line-height-base: 1.5 !default;
+$line-height-lg:   1.7 !default;
+$line-height-sm:   1.2 !default;
+
+$h1-font-size: ($font-size-base * 2) !default;
+$h2-font-size: ($font-size-base * 1.5) !default;
+$h3-font-size: ($font-size-base * 1.25) !default;
+$h4-font-size: $font-size-base !default;
+$h5-font-size: ($font-size-base * 0.875) !default;
+$h6-font-size: ($font-size-base * 0.8) !default;
+
+// Border
+
+$border:        1px solid $color-border;
+$border-radius: ($root-size * 0.25) !default;
+
+// Layout
+
+$site-inner-max-width:   720px !default;
+$site-header-breakpoint: sm !default;

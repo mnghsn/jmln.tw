@@ -1,0 +1,19 @@
+// Archive Style
+
+.archive {
+  list-style: none;
+  padding-left: 0;
+}
+
+.archive-item {
+  margin-bottom: $spacer-md;
+}
+
+.archive-title {
+  margin-bottom: 0;
+  font-size: $font-size-lg;
+}
+
+.archive-meta {
+  color: $color-text-muted;
+}

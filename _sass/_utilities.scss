@@ -1,0 +1,50 @@
+// Utilities
+
+.sr-only {
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  clip: rect(0,0,0,0);
+  clip-path: inset(50%);
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-none {
+  float: none;
+}
+
+.clearfix {
+  @include clearfix;
+}
+
+.text-muted {
+  color: $color-text-muted;
+}
+
+a.text-muted {
+  color: $color-text-muted;
+  text-decoration: underline;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
