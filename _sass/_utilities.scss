@@ -60,3 +60,10 @@ a.text-muted {
 .text-center {
   text-align: center;
 }
+
+svg:not(:root) {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.1em;
+  fill: currentColor;
+}
