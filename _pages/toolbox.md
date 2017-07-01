@@ -1,7 +1,7 @@
 ---
 title: Toolbox
 date: 2017-06-25 00:00:00 +0800
-last_modified_at: 2017-06-25 00:00:00 +0800
+last_modified_at: 2017-07-01 20:00:00 +0800
 order: 2
 ---
 
@@ -85,6 +85,7 @@ order: 2
 | [nvm](https://github.com/creationix/nvm) | [Node.js](https://nodejs.org/) 的多版本管理工具。 | 🆓 |
 | [github-backup](https://github.com/josegonzalez/python-github-backup) | 備份自己在 GitHub 上的 Repo、Wiki、Issues 等資料。 | 🆓 |
 | [speed-test](https://github.com/sindresorhus/speed-test) | 在終端機進行 [Speedtest](http://www.speedtest.net/) 網路測速。 | 🆓 |
+| [aui](https://github.com/helmuthdu/aui) | 用互動式介面快速安裝 Arch Linux。 | 🆓 |
 
 ## 雲端工具
 
