@@ -58,7 +58,7 @@ order: 2
 | [LibreOffice](https://www.libreoffice.org/) | 自由的辦公室文書處理軟體，不被微軟 Office 綁手綁腳。 | 🆓 |
 | [MPC-BE](https://sourceforge.net/projects/mpcbe/) | 自由的影音播放軟體，是 Media Player Classic 和 [MPC-HC](https://sourceforge.net/projects/mpc-hc) 的分支版本。 | 🆓 |
 | [VirtualBox](https://www.virtualbox.org/) | 安裝各種虛擬機器來開發或測試用。 | 🆓 |
-| [Sandboxie](http://www.sandboxie.com/) | Windows 的沙盒軟體，亂搞電腦不怕弄髒系統，對於系統乾淨有潔癖者（例如我）必備。 |      |
+| [Sandboxie](https://www.sandboxie.com/) | Windows 的沙盒軟體，亂搞電腦不怕弄髒系統，對於系統乾淨有潔癖者（例如我）必備。 |      |
 | [WinRAR](http://www.rarlab.com/) | RAR 的復原紀錄功能是我離不開 WinRAR 的原因。 |      |
 | [GIMP](https://www.gimp.org/) | 自由的影像處理軟體。 | 🆓 |
 | [Inkscape](https://inkscape.org/) | 自由的向量圖片編輯器，拿來畫 SVG 圖剛剛好。 | 🆓 |
