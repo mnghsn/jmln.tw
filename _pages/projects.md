@@ -7,6 +7,10 @@ order: 1
 
 看看我做了什麼玩意。
 
+[Feedly Faviconize List](https://github.com/jmlntw/feedly-faviconize-list)
+: 在 Feedly 的文章清單前插入該網站 Favicon 的使用者腳本（User script）。
+  <https://greasyfork.org/en/scripts/31055-feedly-faviconize-list>
+
 [CJK Fonts Package for Atom Editor](https://github.com/jmlntw/atom-fonts-cjk)
 : 在 Atom Editor 直接使用各種適合 CJK 環境的字型。
   <https://atom.io/packages/fonts-cjk>
