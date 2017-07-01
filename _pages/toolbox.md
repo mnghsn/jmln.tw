@@ -28,7 +28,7 @@ order: 2
 | 名稱 | 說明 |
 | ---- | ---- |
 | [uBlock Origin](https://addons.mozilla.org/zh-tw/firefox/addon/ublock-origin/) | 廣告阻擋的第一把交椅，比起 [AdBlock Plus](https://addons.mozilla.org/zh-TW/firefox/addon/adblock-plus/) 少了一點商業氣息。 |
-| [Greasemonkey](https://addons.mozilla.org/zh-tw/firefox/addon/greasemonkey/) | 安裝使用者腳本（Userscripts）必備。 |
+| [Greasemonkey](https://addons.mozilla.org/zh-tw/firefox/addon/greasemonkey/) | 安裝使用者腳本（User scripts）必備。 |
 | [Stylish](https://addons.mozilla.org/zh-tw/firefox/addon/stylish/) | 安裝使用者樣式（User styles）必備。 |
 | [Decentraleyes](https://addons.mozilla.org/zh-tw/firefox/addon/decentraleyes/) | 把常見的 CDN 資源導向本機檔案，不僅加速瀏覽更保護隱私。 |
 | [Flagfox](https://addons.mozilla.org/zh-tw/firefox/addon/flagfox/) | 在網址列旁邊顯示網站的 IP 國籍，圖示點開還有更多查詢功能，可以替代很多附加元件。 |
@@ -115,7 +115,7 @@ order: 2
 | 名稱 | 說明 |
 | ---- | ---- |
 | [PortableApps.com](https://portableapps.com/) | 老字號的可攜式軟體（綠色軟體）網站，我的可攜式軟體都是用這家的。 |
-| [Greasy Fork](https://greasyfork.org/) | 下載瀏覽器的使用者腳本（Userscripts）。 |
+| [Greasy Fork](https://greasyfork.org/) | 下載瀏覽器的使用者腳本（Users cripts）。 |
 | [userstyles.org](https://userstyles.org/) | 下載瀏覽器的使用者樣式（User styles）。 |
 | [PAKUTASO](https://www.pakutaso.com/) | 日本的免費圖庫。我很喜歡這個圖庫的照片風格。 |
 
