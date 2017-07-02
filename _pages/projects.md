@@ -1,7 +1,7 @@
 ---
 title: Projects
 date: 2017-06-25 00:00:00 +0800
-last_modified_at: 2017-07-01 23:00:00 +0800
+last_modified_at: 2017-07-02 18:00:00 +0800
 order: 1
 ---
 
@@ -9,7 +9,7 @@ order: 1
 
 [Feedly Faviconize List](https://github.com/jmlntw/feedly-faviconize-list)
 : 在 Feedly 的文章清單前插入該網站 Favicon 的使用者腳本（User script）。
-  <https://greasyfork.org/en/scripts/31055-feedly-faviconize-list>
+  <https://greasyfork.org/en/scripts/31076-feedly-faviconize-list>
 
 [CJK Fonts Package for Atom Editor](https://github.com/jmlntw/atom-fonts-cjk)
 : 在 Atom Editor 直接使用各種適合 CJK 環境的字型。
