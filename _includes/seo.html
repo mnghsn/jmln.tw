@@ -31,8 +31,8 @@
 {% endunless %}
 {% assign seo_image_path = seo_image_path | escape %}
 
-{% assign seo_image_width = page.image.width | downcase | escape %}
-{% assign seo_image_height = page.image.height | downcase | escape %}
+{% assign seo_image_width = page.image.width | escape %}
+{% assign seo_image_height = page.image.height | escape %}
 
 {% assign seo_date = page.date %}
 {% if seo_date %}
