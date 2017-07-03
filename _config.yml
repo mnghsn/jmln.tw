@@ -65,14 +65,12 @@ defaults:
     values:
       layout: post
       comments: true
-      image: /assets/images/ogp.min.png
   - scope:
       path: _pages
       type: pages
     values:
       layout: page
       comments: false
-      image: /assets/images/ogp.min.png
 
 # Files
 exclude:
