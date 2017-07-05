@@ -12,6 +12,9 @@ order: 3
 ## 電腦網路和科技
 
 * [but, or bug...](http://but.tw/)
+* [DistroWatch.com](https://distrowatch.com/)
+* [Evernote 日本語版ブログ](https://blog.evernote.com/jp)
+* [Evernote 繁體中文版部落格](https://blog.evernote.com/zhtw)
 * [Feedly Blog](https://blog.feedly.com/)
 * [Gea-Suan Lin's BLOG](https://blog.gslin.org/)
 * [gHacks Technology News](https://www.ghacks.net/)
@@ -19,6 +22,7 @@ order: 3
 * [Google Operating System](https://googlesystem.blogspot.com/)
 * [Mozilla Re-Mix](http://mozilla-remix.seesaa.net/)
 * [mozilla-japan](https://medium.com/mozilla-japan)
+* [OMG! Chrome!](http://www.omgchrome.com/)
 * [OMG! Ubuntu!](http://www.omgubuntu.co.uk/)
 * [PortableApps.com](https://portableapps.com/)
 * [Rocket Café 火箭科技評論](https://rocket.cafe/)
@@ -39,6 +43,7 @@ order: 3
 * [Atom Blog](https://blog.atom.io/)
 * [blog.jxck.io](https://blog.jxck.io/)
 * [Bootstrap Blog](https://blog.getbootstrap.com/)
+* [Daily Oops!](http://yukaii.tw/)
 * [Firefox サイト互換性情報](https://www.fxsitecompat.com/ja/)
 * [Google Developers Blog](https://developers.googleblog.com/)
 * [Google Developers Japan](https://developers-jp.googleblog.com/)
