@@ -127,6 +127,7 @@ order: 2
 | [Google Developers](https://developers.google.com/) | Google 相關服務的官方開發者文件。 |
 | [Can I use...](https://caniuse.com/) | 快速查詢各家瀏覽器到底支援什麼前端技術。 |
 | [Microsoft Edge Development](https://developer.microsoft.com/en-us/microsoft-edge/) | 微軟的開發者網站，提供的各種版本的 IE 瀏覽器測試虛擬機。 |
+| [Emojipedia](https://emojipedia.org/) | Unicode Emoji（繪文字）大百科。 |
 
 ## 其他網路工具
 
