@@ -1,7 +1,7 @@
 ---
 title: Blogroll
 date: 2017-06-25 00:00:00 +0800
-last_modified_at: 2017-06-25 00:00:00 +0800
+last_modified_at: 2017-07-25 22:00:00 +0800
 order: 3
 ---
 
@@ -13,9 +13,6 @@ order: 3
 
 * [but, or bug...](http://but.tw/)
 * [DistroWatch.com](https://distrowatch.com/)
-* [Evernote 日本語版ブログ](https://blog.evernote.com/jp)
-* [Evernote 繁體中文版部落格](https://blog.evernote.com/zhtw)
-* [Feedly Blog](https://blog.feedly.com/)
 * [Gea-Suan Lin's BLOG](https://blog.gslin.org/)
 * [gHacks Technology News](https://www.ghacks.net/)
 * [GIGAZINE](https://gigazine.net/)
@@ -24,7 +21,6 @@ order: 3
 * [mozilla-japan](https://medium.com/mozilla-japan)
 * [OMG! Chrome!](http://www.omgchrome.com/)
 * [OMG! Ubuntu!](http://www.omgubuntu.co.uk/)
-* [PortableApps.com](https://portableapps.com/)
 * [Rocket Café 火箭科技評論](https://rocket.cafe/)
 * [t7度空間](https://t7yang.blogspot.com/)
 * [Tsung's Blog](https://blog.longwin.com.tw/)
@@ -40,21 +36,16 @@ order: 3
 ## 開發
 
 * [$4 blog](https://fourdollars.blogspot.com/)
-* [Atom Blog](https://blog.atom.io/)
 * [blog.jxck.io](https://blog.jxck.io/)
-* [Bootstrap Blog](https://blog.getbootstrap.com/)
 * [Daily Oops!](http://yukaii.tw/)
 * [Firefox サイト互換性情報](https://www.fxsitecompat.com/ja/)
 * [Google Developers Blog](https://developers.googleblog.com/)
 * [Google Developers Japan](https://developers-jp.googleblog.com/)
-* [Hexo](https://hexo.io/)
-* [Jekyll](https://jekyllrb.com/)
 * [Mozilla Add-ons Blog](https://blog.mozilla.org/addons)
 * [Mozilla Hacks](https://hacks.mozilla.org/)
 * [O3noBLOG](https://blog.othree.net/)
 * [TechBridge 技術共筆部落格](http://blog.techbridge.cc/)
 * [The GitHub Blog](https://github.com/blog)
-* [Visual Studio Code](https://code.visualstudio.com/)
 * [Zespia](https://zespia.tw/)
 * [風吹草動](https://breezymove.blogspot.com/)
 * [黑暗執行緒](http://blog.darkthread.net/blogs/darkthreadtw/default.aspx)
