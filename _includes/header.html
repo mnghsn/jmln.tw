@@ -14,16 +14,14 @@
       {% endfor %}
 
       {% if site.author and site.author.github %}
-        <a class="site-menu-item" href="https://github.com/{{ site.author.github | escape }}" title="GitHub">
+        <a class="site-menu-item" href="https://github.com/{{ site.author.github | escape }}" aria-label="GitHub">
           {% include icons/github.svg %}
-          <span class="sr-only">GitHub</span>
         </a>
       {% endif %}
 
       {% if site.feed and site.feed.path %}
-        <a class="site-menu-item" href="{{ site.feed.path | relative_url }}" title="RSS">
+        <a class="site-menu-item" href="{{ site.feed.path | relative_url }}" aria-label="RSS">
           {% include icons/rss.svg %}
-          <span class="sr-only">RSS</span>
         </a>
       {% endif %}
     </nav>
