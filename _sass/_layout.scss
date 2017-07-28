@@ -12,7 +12,8 @@
 .site-header {
   margin-bottom: $spacer-xl;
   padding: $spacer-sm 0;
-  background-color: $color-black;
+  border-bottom: $border;
+  background-color: $color-background-faded;
   text-align: center;
 
   @include media-breakpoint-up($site-header-breakpoint) {
@@ -27,13 +28,13 @@
 .site-title {
   display: inline-block;
   padding: $spacer-sm 0;
-  color: $color-white;
+  color: $color-text;
   font-size: $font-size-base;
   font-weight: $font-weight-bold;
   text-decoration: none;
 
   &:hover, &:focus {
-    color: $color-white;
+    color: $color-text;
     text-decoration: none;
   }
 }
@@ -50,11 +51,11 @@
 .site-menu-item {
   display: inline-block;
   padding: $spacer-sm 0;
-  color: $color-gray-light;
+  color: $color-text-muted;
   text-decoration: none;
 
   &:hover, &:focus {
-    color: $color-white;
+    color: $color-text;
     text-decoration: none;
   }
 
