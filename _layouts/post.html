@@ -10,6 +10,7 @@ layout: default
 
   <footer class="article-meta">
     <p>
+      {% include icons/calendar.svg %}
       {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: date_format | escape }}</time>
     </p>
