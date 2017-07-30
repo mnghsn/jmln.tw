@@ -42,6 +42,7 @@
 .site-menu {
   overflow-x: auto;
   white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
 
   @include media-breakpoint-up($site-header-breakpoint) {
     float: right;
