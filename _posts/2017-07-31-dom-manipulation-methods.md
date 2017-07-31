@@ -169,5 +169,5 @@ Polyfill.io 會根據 User-agent 判斷使用者的瀏覽器種類和版本，�
 ## References
 
 * [(Now More Than Ever) You Might Not Need jQuery](https://css-tricks.com/now-ever-might-not-need-jquery/)
-* [NodeList - Web APIs | MDN](https://developer.mozilla.org/en/docs/Web/API/NodeList)
+* [NodeList - Web APIs｜MDN](https://developer.mozilla.org/en/docs/Web/API/NodeList)
 * [Once Upon an Event Listener](https://developers.google.com/web/updates/2016/10/addeventlistener-once)
