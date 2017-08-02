@@ -1,16 +1,15 @@
 ---
 ---
 
-/* TEAM */
+Hi, I'm {{ site.author.name }} from Taiwan. This is my personal blog.
+I write articles about programming and web technologies here, mainly in
+Traditional Chinese.
 
-Author: {{ site.author.name }}{% if site.author.email %}
-Contact: {{ site.author.email | replace: "@", " [at] " }}{% endif %}{% if site.author.twitter %}
-Twitter: @{{ site.author.twitter }}{% endif %}
+I'm on the Internet so you can contact me on:
 
-/* SITE */
+* Email: {{ site.author.email | replace: "@", " [at] " }}{% if site.author.github %}
+* GitHub: https://github.com/{{ site.author.github }}{% endif %}{% if site.author.twitter %}
+* Twitter: https://twitter.com/{{ site.author.twitter }}{% endif %}
 
-Last update: {{ site.time | date: "%Y/%m/%d" }}
-Language: Traditional Chinese (Taiwan)
-Generator: Jekyll
-Standards: HTML5, CSS3
-Software: Atom, Visual Studio Code, GIMP, Inkscape
+Thanks for visiting this site.
+Jimmy Lin
