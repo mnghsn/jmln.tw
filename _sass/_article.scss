@@ -1,5 +1,10 @@
 // Article Styles
 
+.article-title {
+  padding-bottom: $spacer-sm;
+  border-bottom: $border;
+}
+
 .article-meta {
   color: $color-text-muted;
 }
