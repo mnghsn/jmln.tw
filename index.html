@@ -8,15 +8,19 @@ regenerate: true
 <ul class="archive">
   {% for post in site.posts %}
     <li class="archive-item">
+
       <h2 class="archive-title">
         <a class="archive-link js-emoji" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
       </h2>
 
-      <span class="archive-meta">
-        {% include icons/calendar.svg %}
-        {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
-        {{ post.date | date: date_format | escape }}
-      </span>
+      <ul class="list-inline archive-meta">
+        <li class="list-inline-item">
+          {% include icons/calendar.svg %}
+          {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
+          {{ post.date | date: date_format | escape }}
+        </li>
+      </ul>
+
     </li>
   {% endfor %}
 </ul>
