@@ -15,6 +15,7 @@ env:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
 cache:
+  bundler: true
   directories:
     - $TRAVIS_BUILD_DIR/tmp/.htmlproofer
 
