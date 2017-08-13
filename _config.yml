@@ -80,6 +80,7 @@ exclude:
   - README.md
   - LICENSE.txt
   - LICENSE-CC.txt
+  - vendor
 
 # Plugins
 plugins: []
