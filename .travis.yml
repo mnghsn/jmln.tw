@@ -4,8 +4,7 @@ language: ruby
 rvm:
 - 2.3.3
 
-install: gem install jekyll html-proofer
-script: jekyll build && htmlproofer --timeframe 30d --only-4xx ./_site
+script: bundle exec jekyll build && bundle exec htmlproofer --timeframe 30d --only-4xx ./_site
 
 branches:
   only:
