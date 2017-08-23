@@ -6,7 +6,7 @@ order: 0
 ---
 
 <figure class="float-right">
-  <img class="rounded-circle" src="{% link /assets/images/avatar.min.png %}" srcset="{% link /assets/images/avatar@2x.min.png %} 2x" alt="Jimmy Lin">
+  <img class="rounded-circle" src="{% link /assets/images/avatar.min.png %}" srcset="{% link /assets/images/avatar@2x.min.png %} 2x" alt="Jimmy Lin" width="128" height="128">
 </figure>
 
 我是**吉米林（Jimmy Lin）**，網路常用帳號名稱為「**jmlntw**」。台灣人。
