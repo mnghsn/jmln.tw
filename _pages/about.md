@@ -35,7 +35,7 @@ order: 0
 
 ---
 
-<img src="{% link /assets/images/cc-by-sa.min.png %}" srcset="{% link /assets/images/cc-by-sa@2x.min.png %}" alt="CC BY-SA 4.0" width="202" height="71">
+<img src="{% link /assets/images/cc-by-sa.min.png %}" srcset="{% link /assets/images/cc-by-sa@2x.min.png %} 2x" alt="CC BY-SA 4.0" width="202" height="71">
 
 除非另有註明，本站所有內容皆採用[創用 CC 姓名標示-相同方式分享 4.0 國際 授權條款](https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW)授權。
 
