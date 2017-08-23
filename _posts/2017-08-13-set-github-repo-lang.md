@@ -58,4 +58,4 @@ js/main.min.js linguist-generated=true
 ## References
 
 * [github/linguist](https://github.com/github/linguist)
-* [リポジトリの言語割合にドキュメントを含めないようにする方法](http://qiita.com/yuku_t/items/15888c95e32f43e6c830)
+* [<span lang="ja">リポジトリの言語割合にドキュメントを含めないようにする方法</span>](http://qiita.com/yuku_t/items/15888c95e32f43e6c830)
