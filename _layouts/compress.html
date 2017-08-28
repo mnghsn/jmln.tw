@@ -30,10 +30,10 @@
       {%- assign _lines = _pres.last | split: _LINE_FEED -%}
       {%- capture _pres_after -%}
         {%- for _line in _lines -%}
-          {%- assign _trimmed = _line | split: " " | join: " " -%}
+          {%- assign _trimmed = _line | strip -%}
           {%- if _trimmed != empty or forloop.last -%}
             {%- unless forloop.first -%}{{ _LINE_FEED }}{%- endunless -%}
-            {{ _line | strip }}
+            {{ _trimmed }}
           {%- endif -%}
         {%- endfor -%}
       {%- endcapture -%}
