@@ -10,7 +10,7 @@
 
 {%- if jekyll.environment == 'development' -%}
   {{ content }}
-{%- endif -%}
+{%- else -%}
 
 
 {%- comment -%} Initialization {%- endcomment -%}
@@ -53,3 +53,5 @@
 {%- comment -%} Output {%- endcomment -%}
 
   {{ _content }}
+
+{%- endif -%}
