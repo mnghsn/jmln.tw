@@ -9,39 +9,35 @@
 {% endcapture -%}
 
 {%- if jekyll.environment == 'development' -%}
+
   {{ content }}
+
 {%- else -%}
 
-
-{%- comment -%} Initialization {%- endcomment -%}
+  {%- comment -%}Initialization{%- endcomment -%}
 
   {%- capture _content -%}{{ content }}{%- endcapture -%}
 
 
-{%- comment -%} Remove blanklines {%- endcomment -%}
+  {%- comment -%}Remove blanklines{%- endcomment -%}
 
   {%- assign _pre_befores = _content | split: "<pre" -%}
   {%- assign _content = "" -%}
-
   {%- for _pre_before in _pre_befores -%}
     {%- assign _pres = _pre_before | split: "</pre>" -%}
     {%- assign _pre_after = "" -%}
-
     {%- if _pres.size != 0 -%}
       {%- assign _lines = _pres.last | split: _LINE_FEED -%}
       {%- capture _pres_after -%}
         {%- for _line in _lines -%}
           {%- assign _trimmed = _line | split: " " | join: " " -%}
           {%- if _trimmed != empty or forloop.last -%}
-            {%- unless forloop.first -%}
-              {{ _LINE_FEED }}
-            {%- endunless -%}
+            {%- unless forloop.first -%}{{ _LINE_FEED }}{%- endunless -%}
             {{ _line | strip }}
           {%- endif -%}
         {%- endfor -%}
       {%- endcapture -%}
     {%- endif -%}
-
     {%- capture _content -%}
       {{ _content }}
       {%- if _pre_before contains "</pre>" -%}<pre{{ _pres.first }}</pre>{%- endif -%}
@@ -50,7 +46,7 @@
   {%- endfor -%}
 
 
-{%- comment -%} Output {%- endcomment -%}
+  {%- comment -%}Output{%- endcomment -%}
 
   {{ _content }}
 
