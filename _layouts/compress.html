@@ -9,39 +9,60 @@
 {% endcapture -%}
 
 {%- if jekyll.environment == 'development' -%}
+
   {{ content }}
-{%- endif -%}
 
+{%- else -%}
 
-{%- comment -%} Initialization {%- endcomment -%}
+  {%- comment -%}Initialization{%- endcomment -%}
 
   {%- capture _content -%}{{ content }}{%- endcapture -%}
 
 
-{%- comment -%} Remove blanklines {%- endcomment -%}
+  {%- comment -%}Remove HTML comments{%- endcomment -%}
+
+  {%- assign _comments = "<!-- | -->" | split: "|" %}
+  {%- capture _comment_befores -%}.{{ _content }}{%- endcapture -%}
+  {%- assign _comment_befores = _comment_befores | split: _comments.first -%}
+  {%- for _comment_before in _comment_befores -%}
+    {%- if forloop.first -%}{% continue %}{%- endif -%}
+    {%- capture _comment_outside -%}
+      {%- if _carry -%}{{ _comments.first }}{%- endif -%}
+      {{ _comment_before }}
+    {%- endcapture -%}
+    {%- capture _comment -%}
+      {%- unless _carry -%}{{ _comments.first }}{%- endunless -%}
+      {{ _comment_outside | split: _comments.last | first }}
+      {%- if _comment_outside contains _comments.last -%}
+        {{ _comments.last }}
+        {%- assign _carry = false -%}
+      {%- else -%}
+        {%- assign _carry = true -%}
+      {%- endif -%}
+    {%- endcapture -%}
+    {%- assign _content = _content | remove_first: _comment -%}
+  {%- endfor -%}
+
+
+  {%- comment -%}Remove blanklines{%- endcomment -%}
 
   {%- assign _pre_befores = _content | split: "<pre" -%}
   {%- assign _content = "" -%}
-
   {%- for _pre_before in _pre_befores -%}
     {%- assign _pres = _pre_before | split: "</pre>" -%}
     {%- assign _pre_after = "" -%}
-
     {%- if _pres.size != 0 -%}
       {%- assign _lines = _pres.last | split: _LINE_FEED -%}
       {%- capture _pres_after -%}
         {%- for _line in _lines -%}
-          {%- assign _trimmed = _line | split: " " | join: " " -%}
+          {%- assign _trimmed = _line | strip -%}
           {%- if _trimmed != empty or forloop.last -%}
-            {%- unless forloop.first -%}
-              {{ _LINE_FEED }}
-            {%- endunless -%}
-            {{ _line | strip }}
+            {%- unless forloop.first -%}{{ _LINE_FEED }}{%- endunless -%}
+            {{ _trimmed }}
           {%- endif -%}
         {%- endfor -%}
       {%- endcapture -%}
     {%- endif -%}
-
     {%- capture _content -%}
       {{ _content }}
       {%- if _pre_before contains "</pre>" -%}<pre{{ _pres.first }}</pre>{%- endif -%}
@@ -50,6 +71,8 @@
   {%- endfor -%}
 
 
-{%- comment -%} Output {%- endcomment -%}
+  {%- comment -%}Output{%- endcomment -%}
 
   {{ _content }}
+
+{%- endif -%}
