@@ -1,3 +1,4 @@
 _includes/icons/* linguist-vendored
+_layouts/compress.html linguist-vendored
 assets/scripts/vendor/* linguist-vendored
 assets/styles/vendor/* linguist-vendored
