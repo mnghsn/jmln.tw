@@ -82,6 +82,18 @@ exclude:
   - LICENSE-CC.txt
   - vendor
 
+# Compress HTML in Jekyll
+# http://jch.penibelst.de/
+compress_html:
+  blanklines: true
+  startings: []
+  endings: []
+  clippings: []
+  comments: ["<!-- ", " -->"]
+  profile: false
+  ignore:
+    envs: development
+
 # Plugins
 plugins: []
 whitelist: []
