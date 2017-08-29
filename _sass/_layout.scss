@@ -15,14 +15,15 @@
   border-bottom: $border;
   background-color: $color-background-faded;
   text-align: center;
-
-  @include media-breakpoint-up($site-header-breakpoint) {
-    text-align: left;
-  }
 }
 
 .site-header-inner {
-  @include clearfix;
+  @include flex;
+  @include flex-direction-column;
+
+  @include media-breakpoint-up($site-header-breakpoint) {
+    @include flex-direction-row;
+  }
 }
 
 .site-title {
@@ -37,16 +38,16 @@
     color: $color-text;
     text-decoration: none;
   }
+
+  @include media-breakpoint-up($site-header-breakpoint) {
+    margin-right: auto;
+  }
 }
 
 .site-menu {
   overflow-x: auto;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
-
-  @include media-breakpoint-up($site-header-breakpoint) {
-    float: right;
-  }
 }
 
 .site-menu-item {
