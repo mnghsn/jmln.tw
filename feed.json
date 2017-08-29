@@ -16,7 +16,7 @@ regenerate: true
 
   "home_page_url": {{ "/" | absolute_url | jsonify }},
   "feed_url": {{ page.url | absolute_url | jsonify }},
-  "favicon": {{ "/assets/images/favicon-152.png" | absolute_url | jsonify }},
+  "favicon": {{ "/assets/images/favicon-180.min.png" | absolute_url | jsonify }},
   "expired": false,
 
 {% if site.author %}
