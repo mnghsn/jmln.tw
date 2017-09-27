@@ -7,6 +7,13 @@ order: 1
 
 看看我做了什麼玩意。
 
+[Google Search Sidebar](https://github.com/jmlntw/google-search-sidebar)
+: 將 Google 搜尋工具移至側欄顯示的使用者腳本和使用者樣式。
+  【User Script】<https://greasyfork.org/en/scripts/33245-google-search-sidebar>
+  【User Style】<https://userstyles.org/styles/148233/google-search-sidebar>
+
+---
+
 [Feedly Faviconize List](https://github.com/jmlntw/feedly-faviconize-list)
 : 在 Feedly 的文章清單前插入該網站 Favicon 的使用者腳本（User script）。
   <https://greasyfork.org/en/scripts/31076-feedly-faviconize-list>
