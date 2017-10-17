@@ -39,7 +39,7 @@ order: 1
 ---
 
 [Ensure Single Final Newline for VS Code](https://github.com/jmlntw/vscode-ensure-single-final-newline)
-: 在 Visual Studio Code 儲存檔案時移除結尾多餘的空行。
+: [DEPRECATED] 在 Visual Studio Code 儲存檔案時移除結尾多餘的空行。
   <https://marketplace.visualstudio.com/items?itemName=jmlntw.vscode-ensure-single-final-newline>
 
 ---
