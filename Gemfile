@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 3.5.0'
+gem 'jekyll', '~> 3.6.0'
 
 group :development do
   gem 'rake', '~> 12.0.0'
