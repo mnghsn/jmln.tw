@@ -27,7 +27,7 @@ order: 2
 
 | 名稱 | 說明 |
 | ---- | ---- |
-| [uBlock Origin](https://addons.mozilla.org/zh-tw/firefox/addon/ublock-origin/) | 廣告阻擋的第一把交椅，比起 [AdBlock Plus](https://addons.mozilla.org/zh-TW/firefox/addon/adblock-plus/) 少了一點商業氣息。 |
+| [uBlock Origin](https://addons.mozilla.org/zh-tw/firefox/addon/ublock-origin/) | 廣告阻擋的第一把交椅，比起 [AdBlock Plus](https://addons.mozilla.org/zh-tw/firefox/addon/adblock-plus/) 少了一點商業氣息。 |
 | [Greasemonkey](https://addons.mozilla.org/zh-tw/firefox/addon/greasemonkey/) | 安裝使用者腳本（User scripts）必備。 |
 | [Stylish](https://addons.mozilla.org/zh-tw/firefox/addon/stylish/) | 安裝使用者樣式（User styles）必備。 |
 | [Decentraleyes](https://addons.mozilla.org/zh-tw/firefox/addon/decentraleyes/) | 把常見的 CDN 資源導向本機檔案，不僅加速瀏覽更保護隱私。 |
@@ -35,6 +35,7 @@ order: 2
 | [SearchPreview](https://addons.mozilla.org/zh-tw/firefox/addon/searchpreview/) | 在 Google 搜尋結果旁顯示網站縮圖。 |
 | [Text Link](https://addons.mozilla.org/zh-tw/firefox/addon/text-link/) | 讓純文字網址也可以用滑鼠點擊開啟。 |
 | [BBSFox](https://addons.mozilla.org/zh-tw/firefox/addon/bbsfox/) | 在火狐當個[批踢踢](https://www.ptt.cc/)鄉民。 |
+| [HTTPS Everywhere])(https://addons.mozilla.org/zh-tw/firefox/addon/https-everywhere/) | 讓瀏覽器盡可能地使用 HTTPS 連線。 |
 
 ## 編輯器
 
@@ -84,7 +85,7 @@ order: 2
 | ---- | ---- | :--: |
 | [nvm](https://github.com/creationix/nvm) | [Node.js](https://nodejs.org/) 的多版本管理工具。 | 🆓 |
 | [github-backup](https://github.com/josegonzalez/python-github-backup) | 備份自己在 GitHub 上的 Repo、Wiki、Issues 等資料。 | 🆓 |
-| [speed-test](https://github.com/sindresorhus/speed-test) | 在終端機進行 [Speedtest](http://www.speedtest.net/) 網路測速。 | 🆓 |
+| [speedtest-cli](https://github.com/sivel/speedtest-cli) | 在終端機進行 [Speedtest](http://www.speedtest.net/) 網路測速。 | 🆓 |
 | [aui](https://github.com/helmuthdu/aui) | 用互動式介面快速安裝 Arch Linux。 | 🆓 |
 
 ## 雲端工具
