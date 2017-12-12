@@ -19,15 +19,6 @@ regenerate: true
           {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
           {{ post.date | date: date_format | escape }}
         </li>
-
-        {% if post.comments %}
-          {% if site.disqus.shortname and jekyll.environment == "production" %}
-            <li class="list-inline-item">
-              {% include icons/comment.svg %}
-              <span class="disqus-comment-count" data-disqus-identifier="{{ post.url | absolute_url }}"></span>
-            </li>
-          {% endif %}
-        {% endif %}
       </ul>
 
     </li>

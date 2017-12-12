@@ -40,10 +40,4 @@ layout: default
     </ul>
   </footer>
 
-  {% if page.comments %}
-    {% if site.disqus.shortname and jekyll.environment == "production" %}
-      {% include disqus.html %}
-    {% endif %}
-  {% endif %}
-
 </article>
