@@ -142,4 +142,4 @@ order: 2
 
 * [我的工具箱 - 高見龍](http://kaochenlong.com/2012/01/04/my-toolbox/)
 * [Toolbox - Yu-Cheng Chuang’s Blog](https://blog.yorkxin.org/toolbox)
-* [My Software Stack](https://hungys.xyz/my-software-stack/)
+* [My Software Stack](https://medium.com/hungys-blog/my-software-stack-2a406c1c57c1)
