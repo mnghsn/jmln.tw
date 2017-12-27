@@ -30,6 +30,7 @@ task :test => [:clean, :build] do
     :empty_alt_ignore => true,
     :only_4xx => true,
     :cache => {
+      :storage_dir => '.jekyll-cache/html-proofer',
       :timeframe => '30d'
     }
   }

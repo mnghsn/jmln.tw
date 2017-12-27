@@ -15,7 +15,7 @@ env:
 cache:
   bundler: true
   directories:
-    - $TRAVIS_BUILD_DIR/tmp/.htmlproofer
+    - $TRAVIS_BUILD_DIR/.jekyll-cache
 
 sudo: false
 
