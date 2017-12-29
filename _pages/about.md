@@ -24,7 +24,6 @@ order: 0
 * 電子郵件：<jmlntw@gmail.com>（PGP 公開金鑰：[`EE82 B274 6E9D 01E2`]({% link /pgp_keys.asc %})）
 * Twitter：<https://twitter.com/jmlntw>
 * Plurk：<https://www.plurk.com/jmlntw>
-* Google+：<https://plus.google.com/106719721580422518699>
 * GitHub：<https://github.com/jmlntw>
 
 ## 關於這個部落格
