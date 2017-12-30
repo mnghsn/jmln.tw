@@ -91,5 +91,9 @@ compress_html:
     envs: development
 
 # Plugins
-plugins: []
-whitelist: []
+plugins:
+  - jekyll-relative-links
+
+# jekyll-relative-links
+relative_links:
+  collections: true
