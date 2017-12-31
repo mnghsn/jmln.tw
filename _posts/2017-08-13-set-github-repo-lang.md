@@ -6,7 +6,7 @@ tags: git gitattributes github linguist
 
 在每個 GitHub 的 repository 首頁都有一個顯示程式語言組成比例的狀態列：
 
-![GitHub 程式語言狀態列]({% link /assets/posts/2017-08-13-set-github-repo-lang/github-lang-stats-bar.min.png %})
+![GitHub 程式語言狀態列](/assets/posts/2017-08-13-set-github-repo-lang/github-lang-stats-bar.min.png)
 
 GitHub 是透過 [Linguist](https://github.com/github/linguist) 這個 Ruby gems 來判斷和計算各個檔案的程式語言。
 

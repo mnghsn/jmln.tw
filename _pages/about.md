@@ -6,7 +6,7 @@ order: 0
 ---
 
 <figure class="float-right">
-  <img class="rounded-circle" src="{% link /assets/images/avatar.min.png %}" srcset="{% link /assets/images/avatar@2x.min.png %} 2x" alt="Jimmy Lin" width="128" height="128">
+  <img class="rounded-circle" src="/assets/images/avatar.min.png" srcset="/assets/images/avatar@2x.min.png 2x" alt="Jimmy Lin" width="128" height="128">
 </figure>
 
 我是**吉米林（Jimmy Lin）**，網路常用帳號名稱為「**jmlntw**」。台灣人。
@@ -21,7 +21,7 @@ order: 0
 
 你可以在以下這些地方找到我：
 
-* 電子郵件：<jmlntw@gmail.com>（PGP 公開金鑰：[`EE82 B274 6E9D 01E2`]({% link /pgp_keys.asc %})）
+* 電子郵件：<jmlntw@gmail.com>（PGP 公開金鑰：[`EE82 B274 6E9D 01E2`](/pgp_keys.asc)）
 * Twitter：<https://twitter.com/jmlntw>
 * Plurk：<https://www.plurk.com/jmlntw>
 * GitHub：<https://github.com/jmlntw>
@@ -34,7 +34,7 @@ order: 0
 
 ---
 
-<img src="{% link /assets/images/cc-by-sa.min.png %}" alt="CC BY-SA 4.0" width="88" height="31">
+<img src="/assets/images/cc-by-sa.min.png" alt="CC BY-SA 4.0" width="88" height="31">
 
 除非另有註明，本站所有內容皆採用[創用 CC 姓名標示-相同方式分享 4.0 國際 授權條款](https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW)授權。
 
