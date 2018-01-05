@@ -13,13 +13,11 @@ regenerate: true
         <a class="archive-link js-emoji" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
       </h2>
 
-      <ul class="list-inline archive-meta">
-        <li class="list-inline-item">
-          {% include icons/calendar.svg %}
-          {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
-          {{ post.date | date: date_format | escape }}
-        </li>
-      </ul>
+      <span class="archive-meta">
+        {% include icons/calendar.svg %}
+        {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
+        {{ post.date | date: date_format | escape }}
+      </span>
 
     </li>
   {% endfor %}
