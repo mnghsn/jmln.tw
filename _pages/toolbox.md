@@ -34,7 +34,6 @@ order: 2
 | [Flagfox](https://addons.mozilla.org/zh-tw/firefox/addon/flagfox/) | 在網址列旁邊顯示網站的 IP 國籍，圖示點開還有更多查詢功能，可以替代很多附加元件。 |
 | [SearchPreview](https://addons.mozilla.org/zh-tw/firefox/addon/searchpreview/) | 在 Google 搜尋結果旁顯示網站縮圖。 |
 | [Text Link](https://addons.mozilla.org/zh-tw/firefox/addon/text-link/) | 讓純文字網址也可以用滑鼠點擊開啟。 |
-| [BBSFox](https://addons.mozilla.org/zh-tw/firefox/addon/bbsfox/) | 在火狐當個[批踢踢](https://www.ptt.cc/)鄉民。 |
 | [HTTPS Everywhere](https://addons.mozilla.org/zh-tw/firefox/addon/https-everywhere/) | 讓瀏覽器盡可能地使用 HTTPS 連線。 |
 
 ## 編輯器
