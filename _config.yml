@@ -47,7 +47,7 @@ kramdown:
 collections:
   posts:
     output: true
-    permalink: /blog/:title:output_ext
+    permalink: /blog/:year-:month-:day-:title:output_ext
   pages:
     output: true
     permalink: /:categories/:title:output_ext
