@@ -5,9 +5,9 @@
 
   {% include seo.html %}
 
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/favicon-180.min.png' | relative_url }}">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon-32.min.png' | relative_url }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/favicon-16.min.png' | relative_url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/favicon-180.min.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/img/favicon-32.min.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/img/favicon-16.min.png' | relative_url }}">
   <meta name="theme-color" content="#f2f2f2">
 
   {% if site.feed and site.feed.path %}
@@ -21,9 +21,9 @@
   <link rel="author" href="{{ '/humans.txt' | absolute_url }}" type="text/plain">
 
   <link rel="stylesheet" href="{{ 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Source+Code+Pro:400,700' | uri_escape }}">
-  <link rel="stylesheet" href="{{ '/assets/styles/vendor/normalize.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/styles/vendor/github.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/styles/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/vendor/normalize.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/vendor/github.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
   {% if site.google_analytics and jekyll.environment == "production" %}
     {% include google-analytics.html %}

@@ -6,7 +6,7 @@ order: 0
 ---
 
 <figure class="float-right">
-  <img class="rounded-circle" src="/assets/images/avatar.min.png" srcset="/assets/images/avatar@2x.min.png 2x" alt="Jimmy Lin" width="128" height="128">
+  <img class="rounded-circle" src="/assets/img/avatar.min.png" srcset="/assets/img/avatar@2x.min.png 2x" alt="Jimmy Lin" width="128" height="128">
 </figure>
 
 我是**吉米林（Jimmy Lin）**，網路常用帳號名稱為「**jmlntw**」。台灣人。
@@ -34,7 +34,7 @@ order: 0
 
 ---
 
-<img src="/assets/images/cc-by-sa.min.png" alt="CC BY-SA 4.0" width="88" height="31">
+<img src="/assets/img/cc-by-sa.min.png" alt="CC BY-SA 4.0" width="88" height="31">
 
 除非另有註明，本站所有內容皆採用[創用 CC 姓名標示-相同方式分享 4.0 國際 授權條款](https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW)授權。
 
