@@ -2,6 +2,7 @@
 title: 為什麼我選擇用 Jekyll？談靜態網站產生器
 date: 2017-06-27 17:00:00 +0800
 tags: jekyll wordpress hexo hugo
+redirect_from: /blog/why-i-choose-jekyll.html
 ---
 
 當初在規劃要架設這個部落格時，評估和試用了一些現在熱門的部落格系統。現在趁著部落格剛上線沒多久，把這些心得紀錄下來。
