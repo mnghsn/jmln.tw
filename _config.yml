@@ -59,13 +59,13 @@ defaults:
       type: posts
     values:
       layout: post
-      image: /assets/images/favicon-512.min.png
+      image: /assets/img/favicon-512.min.png
   - scope:
       path: _pages
       type: pages
     values:
       layout: page
-      image: /assets/images/favicon-512.min.png
+      image: /assets/img/favicon-512.min.png
 
 # Files
 exclude:
