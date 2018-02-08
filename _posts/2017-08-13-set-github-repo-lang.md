@@ -2,6 +2,7 @@
 title: 設定 GitHub 上顯示的程式語言狀態
 date: 2017-08-13 22:00:00 +0800
 tags: git gitattributes github linguist
+redirect_from: /blog/set-github-repo-lang.html
 ---
 
 在每個 GitHub 的 repository 首頁都有一個顯示程式語言組成比例的狀態列：

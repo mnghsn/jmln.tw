@@ -2,6 +2,7 @@
 title: 都 2017 年了，學學用原生 JS 來操作 DOM 吧
 date: 2017-07-07 10:00:00 +0800
 tags: javascript jquery dom
+redirect_from: /blog/vanilla-javascript-dom-manipulation.html
 ---
 
 > 註：本文最早發表於批踢踢實業坊（PTT）的 Ajax 版（[這裡](https://www.ptt.cc/bbs/Ajax/M.1491563311.A.1F2.html)）和 WebDesign 版（[這裡](https://www.ptt.cc/bbs/Web_Design/M.1491563726.A.508.html)）。

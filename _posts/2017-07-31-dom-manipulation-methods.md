@@ -2,6 +2,7 @@
 title: 更加方便的原生 JavaScript 與 DOM 操作
 date: 2017-07-31 22:20:00 +0800
 tags: javascript jquery dom
+redirect_from: /blog/dom-manipulation-methods.html
 ---
 
 在上一篇「[都 2017 年了，學學用原生 JS 來操作 DOM 吧](2017-07-07-vanilla-javascript-dom-manipulation.md)」中整理了一些使用單純 JavaScript 來操作 DOM（文件物件模型）的方式，不過說實話很多撇步都還稱不上是非常優雅和直覺。尤其對常年用慣 jQuery 的開發者們來說，要轉換過來得花點功夫改寫，還得處理各家瀏覽器的差異。

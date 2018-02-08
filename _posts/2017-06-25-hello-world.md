@@ -1,6 +1,7 @@
 ---
 title: Hello World
 date: 2017-06-25 18:00:00 +0800
+redirect_from: /blog/hello-world.html
 ---
 
 **這是第一篇文章！**

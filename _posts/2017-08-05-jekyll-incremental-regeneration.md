@@ -2,6 +2,7 @@
 title: 開啟 Incremental Regeneration 加速 Jekyll
 date: 2017-08-05 21:10:00 +0800
 tags: jekyll
+redirect_from: /blog/jekyll-incremental-regeneration.html
 ---
 
 [Jekyll](https://jekyllrb.com/) 在 3.0 版本之後導入了「**[Incremental Regeneration](https://jekyllrb.com/docs/configuration/#incremental-regeneration)**」功能，透過「只處理前後兩次 build 時有變更過的檔案」來大幅增加 build 的速度。對於以往一直被嫌速度太慢的 Jekyll 可以說是非常大的進步（不過還是輸 Hexo 或 Hugo 這些新興框架。沒辦法，人家語言天生就比較快）。

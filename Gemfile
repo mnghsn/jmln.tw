@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'jekyll', '~> 3.6.0'
 
 group :jekyll_plugins do
+  gem 'jekyll-redirect-from', '~> 0.12.0'
   gem 'jekyll-relative-links', '~> 0.5.0'
 end
 
