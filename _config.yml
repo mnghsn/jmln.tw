@@ -92,8 +92,10 @@ compress_html:
 
 # Plugins
 plugins:
+  - jekyll-coffeescript
   - jekyll-redirect-from
   - jekyll-relative-links
+  - jekyll-sass-converter
 
 # jekyll-relative-links
 relative_links:
