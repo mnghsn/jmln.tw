@@ -1,7 +1,7 @@
 ---
 title: 為什麼我選擇用 Jekyll？談靜態網站產生器
 date: 2017-06-27 17:00:00 +0800
-last_modified: 2018-03-02 18:00:00 +0800
+last_modified_at: 2018-03-02 18:00:00 +0800
 tags: jekyll wordpress hexo hugo
 redirect_from: /blog/why-i-choose-jekyll.html
 ---
