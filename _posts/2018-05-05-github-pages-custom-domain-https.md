@@ -4,7 +4,7 @@ date: 2018-05-05 22:00:00 +0800
 tags: github-pages https
 ---
 
-![GitHub Pages 的 HTTPS 設定（已啟用狀態）](/assets/posts/2018-05-05-github-pages-custom-domain-https/https-settings.png)
+![GitHub Pages 的 HTTPS 設定（已啟用狀態）](/assets/posts/2018-05-05-github-pages-custom-domain-https/https-settings.min.png)
 
 前幾天 GitHub 終於宣布[使用自訂網域的 GitHub Pages 網站也可以使用 HTTPS 了](https://blog.github.com/2018-05-01-github-pages-custom-domains-https/)，從[好幾年前](https://github.com/isaacs/github/issues/156 "isaacs/github#156")提出的 issue 終於實現。憑證的部分是由 [Let's Encrypt](https://letsencrypt.org/) 所提供的，簡單來說只要設定好 GitHub Pages 提供的 DNS，GitHub 就會幫你搞定憑證申請、自動續約的工作，非常方便。
 
