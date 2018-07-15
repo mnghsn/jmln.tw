@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (5.1.6)
+    activesupport (5.2.0)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
@@ -24,7 +24,7 @@ GEM
     execjs (2.7.0)
     ffi (1.9.23)
     forwardable-extended (2.6.0)
-    html-proofer (3.8.0)
+    html-proofer (3.9.1)
       activesupport (>= 4.2, < 6.0)
       addressable (~> 2.3)
       colorize (~> 0.8)
@@ -52,7 +52,7 @@ GEM
     jekyll-coffeescript (1.1.1)
       coffee-script (~> 2.2)
       coffee-script-source (~> 1.11.1)
-    jekyll-redirect-from (0.13.0)
+    jekyll-redirect-from (0.14.0)
       jekyll (~> 3.3)
     jekyll-relative-links (0.5.3)
       jekyll (~> 3.3)
@@ -69,7 +69,7 @@ GEM
     mercenary (0.3.6)
     mini_portile2 (2.3.0)
     minitest (5.11.3)
-    nokogiri (1.8.2)
+    nokogiri (1.8.4)
       mini_portile2 (~> 2.3.0)
     parallel (1.12.1)
     pathutil (0.16.1)
@@ -98,13 +98,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  html-proofer (~> 3.8.0)
+  html-proofer (~> 3.9.0)
   jekyll (~> 3.7.0)
   jekyll-coffeescript (~> 1.1.0)
-  jekyll-redirect-from (~> 0.13.0)
+  jekyll-redirect-from (~> 0.14.0)
   jekyll-relative-links (~> 0.5.0)
   jekyll-sass-converter (~> 1.5.0)
   rake (~> 12.3.0)
 
 BUNDLED WITH
-   1.16.1
+   1.16.2
