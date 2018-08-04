@@ -1,0 +1,18 @@
+{% assign url = include.url %}
+{% unless url contains "://" %}
+  {% assign url = url | relative_url %}
+{% endunless %}
+
+{% assign description = include.description | escape %}
+{% assign width = include.width | escape %}
+{% assign height = include.height | escape %}
+
+<figure class="text-center">
+  <img src="{{ url }}"
+       {% if description %} alt="{{ description }}" {% endif %}
+       {% if width %} width="{{ width }}" {% endif %}
+       {% if height %} height="{{ height }}" {% endif %}>
+  {% if description %}
+    <figcaption>{{ description }}</figcaption>
+  {% endif %}
+</figure>
