@@ -1,23 +1,28 @@
-# travis-ci.org
-
 language: ruby
 rvm:
-- 2.4
-
-branches:
-  only:
-    - master
+  - 2.5
+sudo: false
 
 env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+    - JEKYLL_ENV=production
+
+# install:
+#   - bundle install
+# script:
+#   - rake
 
 cache:
   bundler: true
   directories:
     - $TRAVIS_BUILD_DIR/.jekyll-cache
 
-sudo: false
+git:
+  depth: 10
+branches:
+  only:
+    - master
 
 notifications:
   email:
