@@ -63,12 +63,14 @@ defaults:
       type: posts
     values:
       layout: post
+      comments: true
       image: /assets/img/favicon-512.min.png
   - scope:
       path: _pages
       type: pages
     values:
       layout: page
+      comments: false
       image: /assets/img/favicon-512.min.png
 
 # Files
