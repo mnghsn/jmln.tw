@@ -53,7 +53,7 @@ order: 3
 ## 文化探討
 
 * [Travel with FUKUZAWA](https://medium.com/travel-with-fukuzawa)
-* [梅と桜　―日本台湾年軽人的事情―](http://umesakura.jp/)
+* [梅と桜　―日本台湾年軽人的事情―](http://umesakura.jp/){:data-proofer-ignore="true"}
 
 ## 網路圖文
 
