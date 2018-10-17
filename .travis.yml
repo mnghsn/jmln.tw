@@ -1,7 +1,6 @@
 language: ruby
 rvm:
   - 2.5
-sudo: false
 
 env:
   global:
@@ -18,8 +17,6 @@ cache:
   directories:
     - $TRAVIS_BUILD_DIR/.jekyll-cache
 
-git:
-  depth: 10
 branches:
   only:
     - master
