@@ -28,6 +28,7 @@ task :test => [:clean, :build] do
     :check_opengraph => true,
     :check_favicon => true,
     :empty_alt_ignore => true,
+    :http_status_ignore => ['403'],
     :only_4xx => true,
     :cache => {
       :storage_dir => '.jekyll-cache/html-proofer',
