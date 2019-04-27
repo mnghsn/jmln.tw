@@ -15,6 +15,11 @@ before_install:
 # script:
 #   - rake
 
+addons:
+  apt:
+    packages:
+      - libcurl4-openssl-dev
+
 cache:
   bundler: true
   directories:
