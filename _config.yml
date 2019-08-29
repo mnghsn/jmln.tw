@@ -30,7 +30,6 @@ date_format: "%Y-%m-%d"
 # Feed
 feed:
   path: /feed.xml
-  json_path: /feed.json
 
 # Analytics
 google_analytics: UA-81739523-1

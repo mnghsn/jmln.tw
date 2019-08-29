@@ -14,10 +14,6 @@
     <link rel="alternate" href="{{ site.feed.path | absolute_url }}" type="application/atom+xml" title="{{ site.title | escape }}">
   {% endif %}
 
-  {% if site.feed and site.feed.json_path %}
-    <link rel="alternate" href="{{ site.feed.json_path | absolute_url }}" type="application/json" title="{{ site.title | escape }}">
-  {% endif %}
-
   <link rel="author" href="{{ '/humans.txt' | absolute_url }}" type="text/plain">
 
   <link rel="stylesheet" href="{{ 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Source+Code+Pro:400,700&display=optional' | uri_escape }}">
