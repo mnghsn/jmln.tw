@@ -10,6 +10,6 @@ group :jekyll_plugins do
 end
 
 group :development do
-  gem 'rake', '~> 12.3.0'
-  gem 'html-proofer', '~> 3.11.0'
+  gem 'rake', '~> 13.0.0'
+  gem 'html-proofer', '~> 3.13.0'
 end
