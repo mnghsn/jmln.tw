@@ -1,7 +1,7 @@
 ---
 title: Blogroll
 date: 2017-06-25 00:00:00 +0800
-last_modified_at: 2019-05-01 21:00:00 +0800
+last_modified_at: 2019-10-12 22:00:00 +0800
 order: 3
 ---
 
@@ -59,11 +59,13 @@ order: 3
 * [CJK Type](https://blogs.adobe.com/CCJKType)
 * [Emojipedia](https://blog.emojipedia.org/)
 * [justfont blog](https://blog.justfont.com/)
-* [UX Planet](https://uxplanet.org/)
+* [UX Movement](https://uxmovement.com)
 * [嫁給 RD 的 UI Designer](https://blog.akanelee.me/)
 
 ## 生活文化
 
+* [zazu 雑‧誌](https://zazu.cc/)
+* [Zen大的敦南新生活](https://zen1976.com/)
 * [台中2B月台](https://rail02000.blogspot.com/)
 * [梅と桜　―日本台湾年軽人的事情―](http://umesakura.jp/){:data-proofer-ignore="true"}
 
