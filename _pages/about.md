@@ -1,7 +1,7 @@
 ---
 title: About
 date: 2017-06-25 00:00:00 +0800
-last_modified_at: 2017-06-25 00:00:00 +0800
+last_modified_at: 2020-10-01 08:00:00 +0800
 order: 0
 ---
 
@@ -23,7 +23,6 @@ order: 0
 
 * 電子郵件：<jmlntw@gmail.com>（PGP 公開金鑰：[`EE82 B274 6E9D 01E2`](/pgp_keys.asc)）
 * Twitter：<https://twitter.com/jmlntw>
-* Plurk：<https://www.plurk.com/jmlntw>
 * GitHub：<https://github.com/jmlntw>
 
 ## 關於這個部落格
