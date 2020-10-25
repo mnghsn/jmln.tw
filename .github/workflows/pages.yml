@@ -1,0 +1,45 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Set up Ruby environment
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - name: Set up cache for dependencies
+        uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+      - name: Set up Jekyll
+        run: |
+          gem install bundler --no-document
+          bundle config path vendor/bundle
+          bundle install --jobs 4 --retry 3
+      - name: Build GitHub Pages
+        env:
+          JEKYLL_ENV: production
+          LC_ALL: C.UTF-8
+        run: |
+          bundle exec jekyll build -d _site
+      - name: Upload GitHub Pages to artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: gh-pages
+          path: _site
