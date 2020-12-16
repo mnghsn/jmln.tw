@@ -31,13 +31,13 @@ jobs:
         run: |
           gem install bundler --no-document
           bundle config path vendor/bundle
-          bundle install --jobs 4 --retry 3
+          bundle install --jobs=4 --retry=3
       - name: Build GitHub Pages
         env:
           JEKYLL_ENV: production
           LC_ALL: C.UTF-8
         run: |
-          bundle exec jekyll build -d _site
+          bundle exec jekyll build --destination=./_site
       - name: Upload GitHub Pages to artifact
         uses: actions/upload-artifact@v2
         with:
