@@ -23,7 +23,6 @@ end
 desc "Test your site."
 task :test => [:clean, :build] do
   options = {
-    :file_ignore => ["./_site/google49cb09583e67a84f.html"],
     :check_html => true,
     :check_opengraph => true,
     :check_favicon => true,
