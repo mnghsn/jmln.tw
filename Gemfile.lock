@@ -18,7 +18,7 @@ GEM
     execjs (2.7.0)
     ffi (1.14.2)
     forwardable-extended (2.6.0)
-    html-proofer (3.15.3)
+    html-proofer (3.18.5)
       addressable (~> 2.3)
       mercenary (~> 0.3)
       nokogumbo (~> 2.0)
@@ -92,7 +92,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  html-proofer (~> 3.15.0)
+  html-proofer (~> 3.18.0)
   jekyll (~> 3.9.0)
   jekyll-coffeescript (~> 1.1.0)
   jekyll-redirect-from (~> 0.15.0)
