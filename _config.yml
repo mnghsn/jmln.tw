@@ -30,9 +30,6 @@ date_format: "%Y-%m-%d"
 feed:
   path: /feed.xml
 
-# Analytics
-google_analytics: UA-81739523-1
-
 # Writings
 markdown: kramdown
 highlighter: rouge
