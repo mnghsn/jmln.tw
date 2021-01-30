@@ -38,10 +38,6 @@ kramdown:
   input: GFM
   auto_ids: false
 
-# Comments
-disqus:
-  shortname: jmlntw
-
 # Collections
 collections:
   posts:
