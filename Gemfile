@@ -8,7 +8,7 @@ end
 
 group :jekyll_plugins do
   gem "jekyll-coffeescript", "~> 1.1.0"
-  gem "jekyll-redirect-from", "~> 0.15.0"
+  gem "jekyll-redirect-from", "~> 0.16.0"
   gem "jekyll-relative-links", "~> 0.6.0"
   gem "jekyll-sass-converter", "~> 1.5.0"
 end
