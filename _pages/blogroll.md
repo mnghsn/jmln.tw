@@ -35,7 +35,6 @@ order: 3
 
 * [blog.jxck.io](https://blog.jxck.io/)
 * [Daily Oops!](https://yukaii.tw/)
-* [Firefox サイト互換性情報](https://www.fxsitecompat.com/ja/)
 * [GitLab](https://about.gitlab.com/blog/)
 * [Google Developers Blog](https://developers.googleblog.com/)
 * [Google Developers Japan](https://developers-jp.googleblog.com/)
