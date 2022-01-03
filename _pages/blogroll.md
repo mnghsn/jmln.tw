@@ -25,7 +25,7 @@ order: 3
 * [Publickey](https://www.publickey1.jp/)
 * [The Mozilla Blog](https://blog.mozilla.org/)
 * [Tsung's Blog](https://blog.longwin.com.tw/)
-* [ニッチなPCゲーマーの環境構築](http://blog.livedoor.jp/nichepcgamer/)
+* [ニッチなPCゲーマーの環境構築Z](https://www.nichepcgamer.com/)
 * [窓の杜](https://forest.watch.impress.co.jp/)
 * [電腦玩物](https://www.playpcesor.com/)
 * [島民 No.86991066](https://blog.timshan.idv.tw/)
@@ -42,7 +42,6 @@ order: 3
 * [Mozilla Add-ons Blog](https://blog.mozilla.org/addons)
 * [Mozilla Hacks](https://hacks.mozilla.org/)
 * [O3noBLOG](https://blog.othree.net/)
-* [TechBridge Weekly 技術週刊](https://weekly.techbridge.cc/)
 * [TechBridge 技術共筆部落格](https://blog.techbridge.cc/)
 * [The Cloudflare Blog](https://blog.cloudflare.com/)
 * [The GitHub Blog](https://blog.github.com/)
@@ -55,7 +54,6 @@ order: 3
 
 ## 數位設計
 
-* [CJK Type](https://blogs.adobe.com/CCJKType)
 * [Emojipedia](https://blog.emojipedia.org/)
 * [justfont blog](https://blog.justfont.com/)
 * [UX Movement](https://uxmovement.com)
