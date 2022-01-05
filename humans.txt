@@ -8,8 +8,7 @@ Traditional Chinese.
 I'm on the Internet so you can contact me on:
 
 * Email: {{ site.author.email | replace: "@", " [at] " }}{% if site.author.github %}
-* GitHub: https://github.com/{{ site.author.github }}{% endif %}{% if site.author.twitter %}
-* Twitter: https://twitter.com/{{ site.author.twitter }}{% endif %}
+* GitHub: https://github.com/{{ site.author.github }}{% endif %}
 
 Thanks for visiting this site.
 Jimmy Lin
