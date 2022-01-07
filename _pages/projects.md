@@ -16,7 +16,7 @@ order: 1
 
 [Google Search Region](https://github.com/jmlntw/google-search-region)
 : 快速切換不同國家地區的 Google 搜尋結果。
-  <https://greasyfork.org/en/scripts/33780-google-search-region>
+  <https://greasyfork.org/en/scripts/33780-google-search-region>
 
 ---
 
