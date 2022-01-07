@@ -1,25 +1,19 @@
 ---
 title: Blogroll
 date: 2017-06-25 00:00:00 +0800
-last_modified_at: 2019-10-12 22:00:00 +0800
+last_modified_at: 2022-01-07 20:00:00 +0800
 order: 3
 ---
 
 這裡是我平常喜歡閱讀的網站和部落格，不定期更新。
 
-我推薦使用 [Feedly](https://feedly.com/) 訂閱 RSS。
-
 ## 網路科技
 
-* [but, or bug...](http://but.tw/)
-* [Chromium Blog](https://blog.chromium.org/)
+* [but, or bug...](https://but.tw/)
 * [Gea-Suan Lin's BLOG](https://blog.gslin.org/)
 * [gHacks Technology News](https://www.ghacks.net/)
 * [iThome](https://www.ithome.com.tw/)
 * [ITmedia](https://www.itmedia.co.jp/)
-* [Microsoft Edge Blog](https://blogs.windows.com/msedgedev)
-* [Mozilla Japan](https://medium.com/mozilla-japan)
-* [Mozilla Taiwan](https://medium.com/@moz2000tw)
 * [OMG! Ubuntu!](https://www.omgubuntu.co.uk/)
 * [OSDN Magazine](https://mag.osdn.jp/)
 * [Publickey](https://www.publickey1.jp/)
@@ -28,7 +22,6 @@ order: 3
 * [ニッチなPCゲーマーの環境構築Z](https://www.nichepcgamer.com/)
 * [窓の杜](https://forest.watch.impress.co.jp/)
 * [電腦玩物](https://www.playpcesor.com/)
-* [島民 No.86991066](https://blog.timshan.idv.tw/)
 * [摩茲星球](https://planet.moztw.org/)
 
 ## 程式開發
@@ -36,16 +29,10 @@ order: 3
 * [blog.jxck.io](https://blog.jxck.io/)
 * [Daily Oops!](https://yukaii.tw/)
 * [GitLab](https://about.gitlab.com/blog/)
-* [Google Developers Blog](https://developers.googleblog.com/)
-* [Google Developers Japan](https://developers-jp.googleblog.com/)
-* [Heroku Blog](https://blog.heroku.com/)
 * [Mozilla Add-ons Blog](https://blog.mozilla.org/addons)
 * [Mozilla Hacks](https://hacks.mozilla.org/)
 * [O3noBLOG](https://blog.othree.net/)
-* [TechBridge 技術共筆部落格](https://blog.techbridge.cc/)
-* [The Cloudflare Blog](https://blog.cloudflare.com/)
 * [The GitHub Blog](https://blog.github.com/)
-* [The npm Blog](https://blog.npmjs.org/)
 * [Zeroplex 生活隨筆](https://blog.zeroplex.tw/)
 * [Zespia](https://zespia.tw/)
 * [工程師幹話](https://medium.com/@p5d12000)
@@ -61,7 +48,6 @@ order: 3
 
 ## 生活文化
 
-* [zazu 雑‧誌](https://zazu.cc/)
 * [Zen大的敦南新生活](https://zen1976.com/)
 * [台中2B月台](https://rail02000.blogspot.com/)
 * [梅と桜　―日本台湾年軽人的事情―](http://umesakura.jp/){:data-proofer-ignore="true"}
