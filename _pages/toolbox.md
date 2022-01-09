@@ -1,7 +1,7 @@
 ---
 title: Toolbox
 date: 2017-06-25 00:00:00 +0800
-last_modified_at: 2022-01-08 12:00:00 +0800
+last_modified_at: 2022-01-09 16:00:00 +0800
 order: 2
 ---
 
@@ -61,6 +61,7 @@ order: 2
 | ------------------------------------------------------- | -------------------------------------------------------------- | :-: |
 | [speedtest-cli](https://github.com/sivel/speedtest-cli) | 在終端機進行 [Speedtest](http://www.speedtest.net/) 網路測速。 | 🆓  |
 | [aui](https://github.com/helmuthdu/aui)                 | 用互動式介面快速安裝 Arch Linux。                              | 🆓  |
+| [bat](https://github.com/sharkdp/bat)                   | 代替 `cat` 指令且支援語法上色。                                | 🆓  |
 
 ## 雲端工具
 
