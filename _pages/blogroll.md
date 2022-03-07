@@ -16,6 +16,7 @@ order: 3
 * 🇹🇼 [iThome](https://www.ithome.com.tw/)
 * 🇯🇵 [ITmedia](https://www.itmedia.co.jp/)
 * 🌎 [OMG! Ubuntu!](https://www.omgubuntu.co.uk/)
+* 🌎 [Lobsters](https://lobste.rs/)
 * 🇯🇵 [OSDN Magazine](https://mag.osdn.jp/)
 * 🇯🇵 [Publickey](https://www.publickey1.jp/)
 * 🇹🇼 [Star Rocket Blog](https://blog.starrocket.io/)
@@ -51,6 +52,7 @@ order: 3
 * 🇹🇼 [風吹草動](https://breezymove.blogspot.com/)
 * 🇹🇼 [要改的地方太多了，那就改天吧](https://blog.user.today/)
 * 🇹🇼 [黑暗執行緒](https://blog.darkthread.net/)
+* 🇹🇼 [帶您讀源碼電子報](https://daininduyuanma.substack.com/)
 
 ## 數位設計
 
@@ -61,10 +63,11 @@ order: 3
 
 ## 生活文化
 
+* 🌎 [Raptitude.com](https://www.raptitude.com/)
 * 🇹🇼 [Zen大的敦南新生活](https://zen1976.com/)
+* 🇹🇼 [台中2B月台](https://rail02000.blogspot.com/)
 * 🇹🇼 [玩玩 Wanwane｜玩物雜學誌](https://wanwane.com/)
 * 🇹🇼 [石墨工房8.0](https://fredjame.com/)
-* 🇹🇼 [台中2B月台](https://rail02000.blogspot.com/)
 * 🇹🇼 🇯🇵 [梅と桜　―日本台湾年軽人的事情―](http://umesakura.jp/){:data-proofer-ignore="true"}
 
 ## 網路圖文
