@@ -27,7 +27,7 @@ jobs:
         run: |
           bundle exec jekyll build --destination=./_site
       - name: Upload GitHub Pages to artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: gh-pages
           path: _site
