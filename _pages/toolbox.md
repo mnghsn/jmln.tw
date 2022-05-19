@@ -1,7 +1,7 @@
 ---
 title: Toolbox
 date: 2017-06-25 00:00:00 +0800
-last_modified_at: 2022-01-09 16:00:00 +0800
+last_modified_at: 2022-05-20 00:00:00 +0800
 order: 2
 ---
 
@@ -11,98 +11,73 @@ order: 2
 
 ## 作業系統
 
-| 名稱                                      | 說明                                  | 💲  |
-| ----------------------------------------- | ------------------------------------- | :-: |
-| [Windows](https://windows.microsoft.com/) | 日常使用的作業系統。                  |     |
-| [Debian](https://www.debian.org/)         | 常用的 Linux 發行版之一。             | 🆓  |
-| [Ubuntu](https://www.ubuntu.com/)         | 常用的 Linux 發行版之二。             | 🆓  |
-| [Arch Linux](https://archlinux.org/)      | 想嘗試新鮮東西時會用的 Linux 發行版。 | 🆓  |
+* [Microsoft Windows](https://windows.microsoft.com/)
+* [Arch Linux](https://archlinux.org/)
+* [Debian](https://www.debian.org/)
+* [Xubuntu](https://xubuntu.org/)
 
 ## 瀏覽器
 
-| 名稱                                               | 說明                                           | 💲  |
-| -------------------------------------------------- | ---------------------------------------------- | :-: |
-| [Mozilla Firefox](https://www.mozilla.org/firefox) | 主要使用的瀏覽器，從 3.6 版一直愛用至今。      | 🆓  |
-| [Waterfox](https://www.waterfox.net/)              | Firefox 的分支版本，改善使用者介面和隱私設定。 |
-| [Bromite](https://www.bromite.org/)                | Android 系統上基於 Chromium 的瀏覽器。         | 🆓  |
+* [Mozilla Firefox](https://www.mozilla.org/firefox)
+* [Waterfox](https://www.waterfox.net/)
+* [Chromium](https://www.chromium.org/)
+* [Bromite](https://www.bromite.org/)
 
 ## 編輯器
 
-| 名稱                                                 | 說明                              | 💲  |
-| ---------------------------------------------------- | --------------------------------- | :-: |
-| [Visual Studio Code](https://code.visualstudio.com/) | 視窗環境下主流使用的編輯器。      | 🆓  |
-| [Vim](https://www.vim.org/)                          | 沒有圖形界面的環境下我是 Vim 派。 | 🆓  |
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [VSCodium](https://vscodium.com/)
+* [Vim](https://www.vim.org/)
 
 ## 好用軟體
 
-| 名稱                                                                 | 說明                                                                                                          | 💲  |
-| -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | :-: |
-| [7-Zip](http://www.7-zip.org/)                                       | 開放原始碼的檔案壓縮軟體，壓縮率高的 7z 格式非常好用。                                                        | 🆓  |
-| [BleachBit](https://www.bleachbit.org/)                              | Linux 環境下的 CCleaner 替代品。                                                                              | 🆓  |
-| [CrystalDiskInfo](http://crystalmark.info/software/CrystalDiskInfo/) | 硬碟健康狀態監控工具，還有可愛的[水晶雫](http://suishoshizuku.com/ja/)。                                      | 🆓  |
-| [Everything](https://www.voidtools.com/)                             | 快速檔案搜尋工具。                                                                                            | 🆓  |
-| [FastCopy](https://fastcopy.jp/)                                     | 快速檔案複製工具。                                                                                            | 🆓  |
-| [Free Download Manager](https://www.freedownloadmanager.org/)        | 免費的下載管理器。                                                                                            | 🆓  |
-| [GeekUninstaller](https://www.geekuninstaller.com/)                  | 把 Windows 安裝的軟體移除地乾乾淨淨。                                                                         | 🆓  |
-| [GIMP](https://www.gimp.org/)                                        | 自由的影像處理軟體。                                                                                          | 🆓  |
-| [Inkscape](https://inkscape.org/)                                    | 自由的向量圖片編輯器，拿來畫 SVG 圖剛剛好。                                                                   | 🆓  |
-| [LibreOffice](https://www.libreoffice.org/)                          | 自由的辦公室文書處理軟體，不想被微軟 Office 綁手綁腳。                                                        | 🆓  |
-| [MPC-BE](https://sourceforge.net/projects/mpcbe/)                    | 自由的影音播放軟體，是 Media Player Classic 和 [MPC-HC](https://sourceforge.net/projects/mpc-hc) 的分支版本。 | 🆓  |
-| [Recuva](https://www.piriform.com/recuva)                            | Windows 的誤刪檔案拯救工具。                                                                                  | 🆓  |
-| [Rufus](http://rufus.akeo.ie/)                                       | 製作 USB 開機碟的好工具。                                                                                     | 🆓  |
-| [Sandboxie](https://sandboxie-plus.com/)                             | Windows 的沙盒軟體，亂搞電腦不怕弄髒系統，對於系統乾淨有潔癖者（例如我）必備。                                |     |
-| [VeraCrypt](https://www.veracrypt.fr/)                               | 磁碟加密工具。                                                                                                | 🆓  |
-| [VirtualBox](https://www.virtualbox.org/)                            | 安裝各種虛擬機器來開發或測試用。                                                                              | 🆓  |
-| [Windows Terminal](https://github.com/microsoft/terminal)            | 微軟新的終端機程式。                                                                                          | 🆓  |
-
-## 終端機（Terminal）程式
-
-| 名稱                                                    | 說明                                                           | 💲  |
-| ------------------------------------------------------- | -------------------------------------------------------------- | :-: |
-| [speedtest-cli](https://github.com/sivel/speedtest-cli) | 在終端機進行 [Speedtest](http://www.speedtest.net/) 網路測速。 | 🆓  |
-| [aui](https://github.com/helmuthdu/aui)                 | 用互動式介面快速安裝 Arch Linux。                              | 🆓  |
-| [bat](https://github.com/sharkdp/bat)                   | 代替 `cat` 指令且支援語法上色。                                | 🆓  |
+* [7-Zip](http://www.7-zip.org/)
+* [BleachBit](https://www.bleachbit.org/)
+* [CrystalDiskInfo](http://crystalmark.info/software/CrystalDiskInfo/)
+* [Everything](https://www.voidtools.com/)
+* [FastCopy](https://fastcopy.jp/)
+* [GeekUninstaller](https://www.geekuninstaller.com/)
+* [GIMP](https://www.gimp.org/)
+* [Inkscape](https://inkscape.org/)
+* [LibreOffice](https://www.libreoffice.org/)
+* [MPC-BE](https://sourceforge.net/projects/mpcbe/)
+* [Rufus](http://rufus.akeo.ie/)
+* [Sandboxie](https://sandboxie-plus.com/)
+* [VeraCrypt](https://www.veracrypt.fr/)
+* [VirtualBox](https://www.virtualbox.org/)
+* [Windows Terminal](https://github.com/microsoft/terminal)
 
 ## 雲端工具
 
-| 名稱                                    | 說明                                                      |
-| --------------------------------------- | --------------------------------------------------------- |
-| [Feedly](https://feedly.com/)           | RSS 閱讀器。自從 Google Reader 停止服務後就一直愛用至今。 |
-| [Google Keep](https://keep.google.com/) | 桌上的便條紙。                                            |
-| [Dropbox](https://www.dropbox.com/)     | 雲端硬碟，要存放或交換檔案都很方便。                      |
+* [ProtonMail](https://protonmail.com/)
+* [Tutanota](https://tutanota.com/)
+* [Joplin](https://joplinapp.org/)
 
 ## 線上開發工具
 
-| 名稱                            | 說明                                                                               |
-| ------------------------------- | ---------------------------------------------------------------------------------- |
-| [cdnjs.com](https://cdnjs.com/) | 龐大的 CDN 資源庫。                                                                |
-| [CodePen](https://codepen.io/)  | 和 JSFiddle 一樣是個測試前端技術的好地方，特色是支援各種 Preprocessor 和即時預覽。 |
-| [GitHub](https://github.com/)   | 全球最大工程師社交網站（誤）。                                                     |
+* [cdnjs.com](https://cdnjs.com/)
+* [CodePen](https://codepen.io/)
+* [GitHub](https://github.com/)
+* [GitLab](https://gitlab.com/)
 
 ## 網路資源
 
-| 名稱                                          | 說明                                                             |
-| --------------------------------------------- | ---------------------------------------------------------------- |
-| [PortableApps.com](https://portableapps.com/) | 老字號的可攜式軟體（綠色軟體）網站，我的可攜式軟體都是用這家的。 |
-| [Greasy Fork](https://greasyfork.org/)        | 下載瀏覽器的使用者腳本（Users cripts）。                         |
-| [PAKUTASO](https://www.pakutaso.com/)         | 日本的免費圖庫。我很喜歡這個圖庫的照片風格。                     |
+* [PortableApps.com](https://portableapps.com/)
+* [Greasy Fork](https://greasyfork.org/)
+* [PAKUTASO](https://www.pakutaso.com/)
 
 ## 文件查詢
 
-| 名稱                                                                                | 說明                                                     |
-| ----------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| [Mozilla Developer Network](https://developer.mozilla.org/)                         | Mozilla 的網頁技術大百科。                               |
-| [Google Developers](https://developers.google.com/)                                 | Google 相關服務的官方開發者文件。                        |
-| [Can I use...](https://caniuse.com/)                                                | 快速查詢各家瀏覽器到底支援什麼前端技術。                 |
-| [Microsoft Edge Development](https://developer.microsoft.com/en-us/microsoft-edge/) | 微軟的開發者網站，提供的各種版本的 IE 瀏覽器測試虛擬機。 |
-| [Emojipedia](https://emojipedia.org/)                                               | Unicode Emoji（繪文字）大百科。                          |
+* [Mozilla Developer Network (MDN)](https://developer.mozilla.org/)
+* [Google Developers](https://developers.google.com/)
+* [Can I use...](https://caniuse.com/)
+* [Microsoft Edge Development](https://developer.microsoft.com/en-us/microsoft-edge/)
+* [Emojipedia](https://emojipedia.org/)
 
 ## 其他網路工具
 
-| 名稱                                             | 說明                        |
-| ------------------------------------------------ | --------------------------- |
-| [VirusTotal](https://www.virustotal.com/)        | Google 的線上檔案掃毒服務。 |
-| [Speedtest by Ookla](https://www.speedtest.net/) | 知名的網路測速服務。        |
+* [VirusTotal](https://www.virustotal.com/)
+* [Speedtest by Ookla](https://www.speedtest.net/)
 
 ## 看看別人的工具箱
 
