@@ -1,7 +1,7 @@
 ---
 title: Blogroll
 date: 2017-06-25 00:00:00 +0800
-last_modified_at: 2022-03-15 20:00:00 +0800
+last_modified_at: 2022-05-20 00:00:00 +0800
 order: 3
 ---
 
@@ -82,3 +82,35 @@ order: 3
 * [好色龍的網路生活觀察日誌](https://hornydragon.blogspot.com/)
 * [新注音新聞](https://shouhei-blog.blogspot.com/)
 * [方吉君速報-我笑故我在](https://rinakawaei.blogspot.com/)
+
+## Podcast
+
+* [mozaic.fm](https://mozaic.fm/)
+* [OPOdcast](https://1pk.jp/opodcast)
+* [Rebuild](https://rebuild.fm)
+* [weak self](https://weakself.dev/)
+* [哇賽心理學](https://onyourpsy.firstory.io/)
+* [大人的Small Talk](https://www.darencademy.com/)
+* [好檸檬 NiceLemon](http://nicelemon.libsyn.com/website)
+* [字型腦補 A Knob of Font](https://akof-by-justfont.firstory.io/)
+* [星箭廣播](https://podcast.starrocket.io/)
+* [矽谷輕鬆談 Just Kidding Tech](https://linktr.ee/jktech)
+* [頂樓加蓋/Overbuild](https://overbuild.firstory.io/)
+
+## YouTube
+
+* [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
+* [Branch Education](https://www.youtube.com/channel/UCdp4_l1vPmpN-gDbUwhaRUQ)
+* [Displaced Gamers](https://www.youtube.com/channel/UCWoSKWs8h6lFdiEDAjuIfpA)
+* [LGR Blerbs](https://www.youtube.com/channel/UCw_Sxdt27ASqErScT4Rlj8A)
+* [LGR](https://www.youtube.com/channel/UCLx053rWZxCiYWsBETgdKrQ)
+* [MattKC](https://www.youtube.com/channel/UChrYe70o7NmDioL02PRVWVg)
+* [Michael MJD](https://www.youtube.com/channel/UCS-WzPVpAAli-1IfEG2lN8A)
+* [Modern Vintage Gamer](https://www.youtube.com/channel/UCjFaPUcJU1vwk193mnW_w1w)
+* [Nick Robinson](https://www.youtube.com/channel/UCOuddH5GyBXp-_tv_ASdp_A)
+* [PolyMars](https://www.youtube.com/channel/UCl7dSJloxuCa9IBFml7sakw)
+* [PwnFunction](https://www.youtube.com/channel/UCW6MNdOsqv2E9AjQkv9we7A)
+* [Sam Hogan](https://www.youtube.com/channel/UCORkUj9eaM2aDJM1VYyDDTA)
+* [The 8-Bit Guy](https://www.youtube.com/channel/UC8uT9cgJorJPWu7ITLGo9Ww)
+* [The Science Elf](https://www.youtube.com/channel/UCCrnCItH17W-64FDzjwOi5w)
+* [低分少年 Low Score Boy](https://www.youtube.com/channel/UC1BjrXqfmHmBkM2FjBTdg-w)
