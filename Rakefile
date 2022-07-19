@@ -23,15 +23,17 @@ end
 desc "Test your site."
 task :test => [:clean, :build] do
   options = {
-    :check_html => true,
-    :check_opengraph => true,
-    :check_favicon => true,
-    :empty_alt_ignore => true,
-    :http_status_ignore => [403],
+    :check_external_hash => false,
+    :check_internal_hash => true,
+    :ignore_missing_alt => true,
+    :ignore_status_codes => [403],
     :only_4xx => true,
     :cache => {
       :storage_dir => ".jekyll-cache/html-proofer",
-      :timeframe => "30d"
+      :timeframe => {
+        :external => '30d',
+        :internal => '15d'
+      }
     }
   }
   HTMLProofer.check_directory("./_site", options).run
