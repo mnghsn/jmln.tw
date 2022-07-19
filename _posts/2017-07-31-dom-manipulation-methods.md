@@ -96,7 +96,7 @@ elem.closest('div');
 
 ### 瀏覽器支援程度
 
-要談到傷感情的瀏覽器支援了，根據 [Can I use...](http://caniuse.com/#feat=dom-manip-convenience) 的資料，支援 DOM manipulation methods 為：
+要談到傷感情的瀏覽器支援了，根據 [Can I use...](https://caniuse.com/#feat=dom-manip-convenience) 的資料，支援 DOM manipulation methods 為：
 
 * ✔️ Firefox 49+
 * ✔️ Chrome 54+
@@ -119,7 +119,7 @@ elem.addEventListener('click', someFunc, { once: true });
 ```
 ### 瀏覽器支援程度
 
-詳細支援表格請參考：<http://caniuse.com/#feat=once-event-listener>
+詳細支援表格請參考：<https://caniuse.com/#feat=once-event-listener>
 
 * ✔️ Firefox 50+
 * ✔️ Chrome 55+

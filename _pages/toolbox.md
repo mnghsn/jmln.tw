@@ -31,9 +31,9 @@ order: 2
 
 ## 好用軟體
 
-* [7-Zip](http://www.7-zip.org/)
+* [7-Zip](https://www.7-zip.org/)
 * [BleachBit](https://www.bleachbit.org/)
-* [CrystalDiskInfo](http://crystalmark.info/software/CrystalDiskInfo/)
+* [CrystalDiskInfo](https://crystalmark.info/software/CrystalDiskInfo/)
 * [Everything](https://www.voidtools.com/)
 * [FastCopy](https://fastcopy.jp/)
 * [GeekUninstaller](https://www.geekuninstaller.com/)
@@ -41,7 +41,7 @@ order: 2
 * [Inkscape](https://inkscape.org/)
 * [LibreOffice](https://www.libreoffice.org/)
 * [MPC-BE](https://sourceforge.net/projects/mpcbe/)
-* [Rufus](http://rufus.akeo.ie/)
+* [Rufus](https://rufus.akeo.ie/)
 * [Sandboxie](https://sandboxie-plus.com/)
 * [VeraCrypt](https://www.veracrypt.fr/)
 * [VirtualBox](https://www.virtualbox.org/)
@@ -81,6 +81,6 @@ order: 2
 
 ## 看看別人的工具箱
 
-- [我的工具箱 - 高見龍](http://kaochenlong.com/2012/01/04/my-toolbox/)
+- [我的工具箱 - 高見龍](https://kaochenlong.com/2012/01/04/my-toolbox/)
 - [Toolbox - Yu-Cheng Chuang’s Blog](https://blog.yorkxin.org/toolbox)
 - [My Software Stack](https://medium.com/hungys-blog/my-software-stack-2a406c1c57c1)

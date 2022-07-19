@@ -91,7 +91,7 @@ order: 3
 * [weak self](https://weakself.dev/)
 * [哇賽心理學](https://onyourpsy.firstory.io/)
 * [大人的Small Talk](https://www.darencademy.com/)
-* [好檸檬 NiceLemon](http://nicelemon.libsyn.com/website)
+* [好檸檬 NiceLemon](https://nicelemon.libsyn.com/website)
 * [字型腦補 A Knob of Font](https://akof-by-justfont.firstory.io/)
 * [星箭廣播](https://podcast.starrocket.io/)
 * [矽谷輕鬆談 Just Kidding Tech](https://linktr.ee/jktech)

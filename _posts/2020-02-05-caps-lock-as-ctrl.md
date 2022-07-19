@@ -83,5 +83,5 @@ EndSection
 
 * [諸君！把 Control 和 Caps Lock 交換吧](https://blog.yorkxin.org/2016/12/27/ergonomic-control-key.html)
 * [更改 Mac 上變更鍵的行為](https://support.apple.com/zh-tw/guide/mac-help/mchlp1011/mac)
-* [Windows10 CapsLockキーをCtrlキーに割りあててしまおう！](http://www.shin-tan.com/swapKey){: lang="ja"}
+* [Windows10 CapsLockキーをCtrlキーに割りあててしまおう！](https://www.shin-tan.com/swapKey){: lang="ja"}
 * [Xorg/Keyboard configuration](https://wiki.archlinux.org/index.php/Xorg/Keyboard_configuration)
