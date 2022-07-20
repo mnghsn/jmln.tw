@@ -23,9 +23,8 @@ end
 desc "Test your site."
 task :test => [:clean, :build] do
   options = {
-    #:check_html => true,
-    #:check_opengraph => true,
-    #:check_favicon => true,
+    :check_external_hash => false,
+    :check_internal_hash => true,
     :ignore_missing_alt => true,
     :ignore_status_codes => [403],
     :only_4xx => true,
@@ -33,7 +32,7 @@ task :test => [:clean, :build] do
       :storage_dir => ".jekyll-cache/html-proofer",
       :timeframe => {
         :external => '30d',
-        :internal => '30d'
+        :internal => '15d'
       }
     }
   }
