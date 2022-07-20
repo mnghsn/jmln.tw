@@ -26,6 +26,6 @@ redirect_from: /blog/why-i-choose-jekyll.html
 
 Jekyll 的自由度也很高，任何檔案都可以導入 Liquid 樣板，幾乎不靠任何外掛就可以架設一個基本的部落格~~，像現在這個部落格就以不用非 Jekyll 內建的外掛為目標~~。
 
-Jekyll 最為人詬病的缺點就是建置的速度太慢，文章多的話花上一兩分鐘都有可能。但是自從有了 [Incremental Regeneration](http://jekyllrb.com/docs/configuration/#incremental-regeneration) 之後，可以在每次 build 時忽略沒有修改過的檔案，速度就像開了 turbo 一樣。更何況放在 GitHub Pages 上就等於把 build 這項工作丟給 GitHub 去跑，清爽無負擔。
+Jekyll 最為人詬病的缺點就是建置的速度太慢，文章多的話花上一兩分鐘都有可能。但是自從有了 [Incremental Regeneration](https://jekyllrb.com/docs/configuration/#incremental-regeneration) 之後，可以在每次 build 時忽略沒有修改過的檔案，速度就像開了 turbo 一樣。更何況放在 GitHub Pages 上就等於把 build 這項工作丟給 GitHub 去跑，清爽無負擔。
 
 或許未來靜態網站產生器的生態又會改變，又或者文章越來越多、Jekyll 已經不敷使用等等情況，到時候可能會換到其他框架。用 Markdown 寫文章的好處就是格式標準化，可以到處搬移帶著走，不會被資料庫系統綁住。
