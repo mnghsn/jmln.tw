@@ -1,7 +1,7 @@
 ---
 title: Blogroll
 date: 2017-06-25 00:00:00 +0800
-last_modified_at: 2022-05-20 00:00:00 +0800
+last_modified_at: 2022-10-05 00:00:00 +0800
 order: 3
 ---
 
@@ -14,13 +14,18 @@ order: 3
 * [Gea-Suan Lin's BLOG](https://blog.gslin.org/)
 * [gHacks Technology News](https://www.ghacks.net/)
 * [Hacker News](https://news.ycombinator.com/)
+* [It's FOSS](https://itsfoss.com/)
 * [iThome](https://www.ithome.com.tw/)
 * [ITmedia](https://www.itmedia.co.jp/)
+* [LinuxLinks](https://www.linuxlinks.com/)
 * [Lobsters](https://lobste.rs/)
+* [NiceLink.me 好連點我](https://nicelink.me/)
 * [OMG! Ubuntu!](https://www.omgubuntu.co.uk/)
 * [OSDN Magazine](https://mag.osdn.jp/)
 * [Publickey](https://www.publickey1.jp/)
 * [Star Rocket Blog](https://blog.starrocket.io/)
+* [The Cheapskate's Guide to Computers and the Internet](https://cheapskatesguide.org/)
+* [The Lunduke Journal of Technology](https://lunduke.substack.com/)
 * [The Mozilla Blog](https://blog.mozilla.org/)
 * [スラド](https://srad.jp/)
 * [摩茲星球](https://planet.moztw.org/)
@@ -31,6 +36,7 @@ order: 3
 ## 程式開發
 
 * [13 的 Apple 開發者週報](https://ethanhuang13.substack.com/)
+* [Almost Secure](https://palant.info/)
 * [blog.jxck.io](https://blog.jxck.io/)
 * [CSS Weekly](https://css-weekly.com/)
 * [Daily Oops!](https://yukai.dev/blog)
@@ -65,7 +71,11 @@ order: 3
 
 ## 生活文化
 
+* [Experimental History](https://experimentalhistory.substack.com/)
+* [Jakob Greenfeld](https://jakobgreenfeld.com/)
 * [Raptitude.com](https://www.raptitude.com/)
+* [Seth's Blog](https://seths.blog/)
+* [Unstructed.tech](https://unstructed.tech/)
 * [Zen大的敦南新生活](https://zen1976.com/)
 * [台中2B月台](https://rail02000.blogspot.com/)
 * [大人學](https://www.darencademy.com/)
