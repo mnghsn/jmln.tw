@@ -15,5 +15,5 @@ end
 
 group :development do
   gem "rake", "~> 13.0.0"
-  gem "html-proofer", "~> 4.4.0"
+  gem "html-proofer", "~> 5.0.0"
 end
