@@ -9,11 +9,13 @@
       <ul class="site-menu">
         {% assign pages = site.pages | sort: "order" %}
         {% for page in pages %}
-          <li class="site-menu-item">
-            <a class="site-menu-link" href="{{ page.url | relative_url }}">
-              {{ page.title | escape }}
-            </a>
-          </li>
+          {% unless page.exclude %}
+            <li class="site-menu-item">
+              <a class="site-menu-link" href="{{ page.url | relative_url }}">
+                {{ page.title | escape }}
+              </a>
+            </li>
+          {% endunless %}
         {% endfor %}
 
         {% if site.author and site.author.github %}

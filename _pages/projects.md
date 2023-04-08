@@ -3,6 +3,7 @@ title: Projects
 date: 2017-06-25 00:00:00 +0800
 last_modified_at: 2022-01-09 16:00:00 +0800
 order: 1
+exclude: true
 ---
 
 看看我做了什麼玩意。
