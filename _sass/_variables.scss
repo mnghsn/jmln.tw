@@ -39,8 +39,8 @@ $color-link:             $color-blue !default;
 
 // Fonts
 
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-$font-family-monospace:  "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace !default;
+$font-family-sans-serif: system-ui, sans-serif !default;
+$font-family-monospace:  ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace !default;
 $font-family-base:       $font-family-sans-serif !default;
 
 $font-size-base: $root-size !default;
