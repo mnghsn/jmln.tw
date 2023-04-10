@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.9.0"
+gem "jekyll", "~> 4.3.0"
 gem "webrick", "~> 1.8.0"
 
 group :github_pages do
@@ -8,10 +8,10 @@ group :github_pages do
 end
 
 group :jekyll_plugins do
-  gem "jekyll-coffeescript", "~> 1.1.0"
+  gem "jekyll-coffeescript", "~> 2.0.0"
   gem "jekyll-redirect-from", "~> 0.16.0"
-  gem "jekyll-relative-links", "~> 0.6.0"
-  gem "jekyll-sass-converter", "~> 1.5.0"
+  gem "jekyll-relative-links", "~> 0.7.0"
+  gem "jekyll-sass-converter", "~> 3.0.0"
 end
 
 group :development do
