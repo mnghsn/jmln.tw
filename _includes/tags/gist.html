@@ -1,9 +1,0 @@
-{% assign gist_url = "https://gist.github.com/" | append: include.id %}
-{% if include.file %}
-  {% assign gist_url = gist_url | append: "?file=" | append: include.file %}
-{% endif %}
-{% assign gist_url = gist_url | escape %}
-
-<p>
-  <a class="gist" href="{{ gist_url }}">{{ gist_url }}</a>
-</p>
