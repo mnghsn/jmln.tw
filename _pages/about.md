@@ -21,8 +21,8 @@ order: 0
 
 你可以在以下這些地方找到我：
 
-* 電子郵件：`jmlntw [at] gmail.com`（PGP 公開金鑰：[`EE82 B274 6E9D 01E2`](/pgp_keys.asc)）
-* GitHub：<https://github.com/jmlntw>
+- 電子郵件：`jmlntw [at] gmail.com`（PGP 公開金鑰：[`EE82 B274 6E9D 01E2`](/pgp_keys.asc)）
+- GitHub：<https://github.com/jmlntw>
 
 ## 關於這個部落格
 
