@@ -1,6 +1,8 @@
 // Base Styles
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   @include box-sizing(border-box);
 }
 
@@ -34,7 +36,8 @@ a {
   color: $color-link;
   text-decoration: none;
 
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     color: $color-link;
     text-decoration: underline;
   }

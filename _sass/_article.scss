@@ -9,14 +9,19 @@
 }
 
 .article-content {
-
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     &:not(:first-child) {
       margin-top: $spacer-xl;
     }
   }
 
-  h1, h2 {
+  h1,
+  h2 {
     padding-bottom: $spacer-sm;
     border-bottom: $border;
   }
@@ -31,5 +36,4 @@
     color: $color-text-muted;
     font-size: $font-size-sm;
   }
-
 }

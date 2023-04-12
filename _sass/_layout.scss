@@ -34,7 +34,8 @@
   font-weight: $font-weight-bold;
   text-decoration: none;
 
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     color: $color-text;
     text-decoration: none;
   }
@@ -67,7 +68,8 @@
   color: $color-text-muted;
   text-decoration: none;
 
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     color: $color-text;
     text-decoration: none;
   }
