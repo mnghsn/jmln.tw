@@ -83,5 +83,5 @@ exclude: true
 ## 看看別人的工具箱
 
 - [我的工具箱 - 高見龍](https://kaochenlong.com/2012/01/04/my-toolbox/)
-- [Toolbox - Yu-Cheng Chuang’s Blog](https://blog.yorkxin.org/toolbox)
+- [Toolbox - Yu-Cheng Chuang’s Blog](https://web.archive.org/web/20180123013422/https://blog.yorkxin.org/toolbox)
 - [My Software Stack](https://medium.com/hungys-blog/my-software-stack-2a406c1c57c1)
