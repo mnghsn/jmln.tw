@@ -1,14 +1,12 @@
 // Base Styles
 
-html {
-  -ms-overflow-style: scrollbar;
-  -webkit-tap-highlight-color: transparent;
-
+*, *::before, *::after {
   @include box-sizing(border-box);
 }
 
-*, *::before, *::after {
-  @include box-sizing(inherit);
+html {
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
 }
 
 ::-moz-selection {
