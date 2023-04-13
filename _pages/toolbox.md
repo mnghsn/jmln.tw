@@ -20,8 +20,7 @@ exclude: true
 ## 瀏覽器
 
 - [Mozilla Firefox](https://www.mozilla.org/firefox)
-- [Waterfox](https://www.waterfox.net/)
-- [Chromium](https://www.chromium.org/)
+- [ungoogled-chromium](https://ungoogled-software.github.io/)
 - [Bromite](https://www.bromite.org/)
 
 ## 編輯器
@@ -51,8 +50,6 @@ exclude: true
 ## 雲端工具
 
 - [ProtonMail](https://protonmail.com/)
-- [Tutanota](https://tutanota.com/)
-- [Joplin](https://joplinapp.org/)
 
 ## 線上開發工具
 
