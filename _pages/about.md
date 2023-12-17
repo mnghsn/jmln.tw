@@ -5,10 +5,6 @@ last_modified_at: 2023-01-01 00:00:00 +0800
 order: 0
 ---
 
-<figure class="float-right">
-  <img class="rounded-circle" src="/assets/img/avatar.min.png" srcset="/assets/img/avatar@2x.min.png 2x" alt="Jimmy Lin" width="128" height="128">
-</figure>
-
 我是**吉米林（Jimmy Lin）**，網路常用帳號名稱為「**jmlntw**」。台灣人。
 
 熱愛各種文字和語言，包含給人類閱讀的和給電腦閱讀的。
