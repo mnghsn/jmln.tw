@@ -1,21 +1,20 @@
 ---
 title: Projects
 date: 2017-06-25 00:00:00 +0800
-last_modified_at: 2022-01-09 16:00:00 +0800
+last_modified_at: 2023-12-01 00:00:00 +0800
 order: 1
-exclude: true
 ---
 
 看看我做了什麼玩意。
 
-- [dockerfiles](https://github.com/jmlntw/dockerfiles) - 自製的 Dockerfiles 倉庫。
-- [dotfiles](https://github.com/jmlntw/dotfiles) - 我的個人系統設定檔案（Bash、Git、Vim 等），包含一個簡單的安裝 Shell 腳本。
-- [Feedly Faviconize List](https://github.com/jmlntw/feedly-faviconize-list) - 在 Feedly 的文章清單前插入該網站 Favicon 的使用者腳本（User script）。
+- [dockerfiles](https://github.com/jmlntw/dockerfiles) - 自製的 Dockerfiles 儲存庫。
+- [dotfiles](https://github.com/jmlntw/dotfiles) - 我的個人系統設定檔案（Bash、Git、Vim 等），包含一個簡單的安裝 Shell 指令稿。
+- [Feedly Faviconize List](https://github.com/jmlntw/feedly-faviconize-list) - 在 Feedly 的文章清單前插入該網站 Favicon 的使用者指令稿（User script）。
 - [Google Search Region](https://github.com/jmlntw/google-search-region) - 快速切換不同國家地區的 Google 搜尋結果。
-- [Google Search Sidebar](https://github.com/jmlntw/google-search-sidebar) - 將 Google 搜尋工具移至側欄顯示的使用者腳本和使用者樣式。
+- [Google Search Sidebar](https://github.com/jmlntw/google-search-sidebar) - 將 Google 搜尋工具移至側欄顯示的使用者指令稿和使用者樣式。
 - [google-supported-domains](https://github.com/jmlntw/google-supported-domains) - 取得與判斷 Google 國際網域的 Node.js 套件包。
-- [powershell-aes](https://github.com/jmlntw/powershell-aes) - 在 PowerShell 執行使用 AES 演算法的檔案加密／解密腳本。
-- [powershell-checksum](https://github.com/jmlntw/powershell-checksum) - 在 PowerShell 執行檔案雜湊值計算／比對的腳本。
+- [powershell-aes](https://github.com/jmlntw/powershell-aes) - 在 PowerShell 執行使用 AES 演算法的檔案加密／解密指令稿。
+- [powershell-checksum](https://github.com/jmlntw/powershell-checksum) - 在 PowerShell 執行檔案雜湊值計算／比對的指令稿。
 
 以下是停止維護的專案。
 
